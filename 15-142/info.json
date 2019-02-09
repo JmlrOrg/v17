@@ -1,0 +1,17 @@
+{
+    "abstract": "The rise of Internet-scale networks, such as web graphs and social media with hundreds of millions to billions of nodes, presents new scientific opportunities, such as overlapping community detection to discover the structure of the Internet, or to analyze trends in online social behavior. However, many existing probabilistic network models are difficult or impossible to deploy at these massive scales. We propose a scalable approach for modeling and inferring latent spaces in Internet-scale networks, with an eye towards overlapping community detection as a key application. By applying a succinct representation of networks as a bag of triangular motifs, developing a parsimonious statistical model, deriving an efficient stochastic variational inference algorithm, and implementing it as a distributed cluster program via the Petuum parameter server system, we demonstrate overlapping community detection on real networks with up to 100 million nodes and 1000 communities on 5 machines in under 40 hours. Compared to other state-of-the-art probabilistic network approaches, our method is several orders of magnitude faster, with competitive or improved accuracy at overlapping community detection.",
+    "authors": [
+        "Qirong Ho",
+        "Junming Yin",
+        "Eric P. Xing"
+    ],
+    "id": "15-142",
+    "issue": 78,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Latent Space Inference of Internet-Scale Networks",
+    "volume": 17,
+    "year": 2016
+}

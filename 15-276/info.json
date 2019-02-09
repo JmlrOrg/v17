@@ -1,0 +1,17 @@
+{
+    "abstract": "We introduce the term <em>semiparametric mean field variational Bayes</em> to describe the relaxation of mean field variational Bayes in which some density functions in the product density restriction are pre-specified to be members of convenient parametric families. This notion has appeared in various guises in the mean field variational Bayes literature during its history and we endeavor to unify this important topic. We lay down a general framework and explain how previous relevant methodologies fall within this framework. A major contribution is elucidation of numerical issues that impact semiparametric mean field variational Bayes in practice.",
+    "authors": [
+        "David Rohde",
+        "Matt P. W",
+        ""
+    ],
+    "id": "15-276",
+    "issue": 172,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Semiparametric Mean Field Variational Bayes: General Principles and Numerical Issues",
+    "volume": 17,
+    "year": 2016
+}

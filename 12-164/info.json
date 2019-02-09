@@ -1,0 +1,18 @@
+{
+    "abstract": "Multi-label classification has rapidly attracted interest in the machine learning literature, and there are now a large number and considerable variety of methods for this type of learning. We present MEKA: an open-source Java framework based on the well-known WEKA library. MEKA provides interfaces to facilitate practical application, and a wealth of multi-label classifiers, evaluation metrics, and tools for multi-label experiments and development. It supports multi-label and multi-target data, including in incremental and semi- supervised contexts.",
+    "authors": [
+        "Jesse Read",
+        "Peter Reutemann",
+        "Bernhard Pfahringer",
+        "Geoff Holmes"
+    ],
+    "id": "12-164",
+    "issue": 21,
+    "pages": [
+        1,
+        5
+    ],
+    "title": "MEKA: A Multi-label/Multi-target Extension to WEKA",
+    "volume": 17,
+    "year": 2016
+}

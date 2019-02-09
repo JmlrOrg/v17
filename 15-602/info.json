@@ -1,0 +1,17 @@
+{
+    "abstract": "In this paper, we introduce a novel approach, called Input Output Kernel Regression (IOKR), for learning mappings between structured inputs and structured outputs. The approach belongs to the family of Output Kernel Regression methods devoted to regression in feature space endowed with some output kernel. In order to take into account structure in input data and benefit from kernels in the input space as well, we use the Reproducing Kernel Hilbert Space theory for vector-valued functions. We first recall the ridge solution for supervised learning and then study the regularized hinge loss-based solution used in Maximum Margin Regression. Both models are also developed in the context of semi-supervised setting. In addition we derive an extension of Generalized Cross Validation for model selection in the case of the least-square model. Finally we show the versatility of the IOKR framework on two different problems: link prediction seen as a structured output problem and multi-task regression seen as a multiple and interdependent output problem. Eventually, we present a set of detailed numerical results that shows the relevance of the method on these two tasks.",
+    "authors": [
+        "C{{\\'e}}line Brouard",
+        "Marie Szafranski",
+        "Florence d'Alch{{\\'e}}-Buc"
+    ],
+    "id": "15-602",
+    "issue": 176,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Input Output Kernel Regression: Supervised and Semi-Supervised Structured Output Prediction with Operator-Valued Kernels",
+    "volume": 17,
+    "year": 2016
+}

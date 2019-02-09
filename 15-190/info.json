@@ -1,0 +1,17 @@
+{
+    "abstract": "Symmetric positive semi-definite (SPSD) matrix approximation methods have been extensively used to speed up large-scale eigenvalue computation and kernel learning methods. The standard sketch based method, which we call the prototype model, produces relatively accurate approximations, but is inefficient on large square matrices. The Nystr\u00c3\u00b6m method is highly efficient, but can only achieve low accuracy. In this paper we propose a novel model that we call the <em>fast SPSD matrix approximation model</em>. The fast model is nearly as efficient as the Nystr\u00c3\u00b6m method and as accurate as the prototype model. We show that the fast model can potentially solve eigenvalue problems and kernel learning problems in linear time with respect to the matrix size $n$ to achieve $1+\\epsilon$ relative-error, whereas both the prototype model and the Nystr\u00c3\u00b6m method cost at least quadratic time to attain comparable error bound. Empirical comparisons among the prototype model, the Nystr\u00c3\u00b6m method, and our fast model demonstrate the superiority of the fast model. We also contribute new understandings of the Nystr\u00c3\u00b6m method. The Nystr\u00c3\u00b6m method is a special instance of our fast model and is approximation to the prototype model. Our technique can be straightforwardly applied to make the CUR matrix decomposition more efficiently computed without much affecting the accuracy.",
+    "authors": [
+        "Shusen Wang",
+        "Zhihua Zhang",
+        "Tong Zhang"
+    ],
+    "id": "15-190",
+    "issue": 210,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Towards More Efficient SPSD Matrix Approximation and CUR Matrix Decomposition",
+    "volume": 17,
+    "year": 2016
+}

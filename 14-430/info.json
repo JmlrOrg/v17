@@ -1,0 +1,19 @@
+{
+    "abstract": "Information spreads across social and technological networks, but often the network structures are hidden from us and we only observe the traces left by the diffusion  processes, called <i>cascades</i>. Can we recover the hidden network structures from these observed cascades? What kind of cascades and how many cascades  do we need? Are there some network structures which are more difficult than others to recover? Can we design efficient inference algorithms with provable  guarantees? Despite the increasing availability of cascade data and methods for inferring networks from these data, a thorough theoretical understanding of the above questions  remains largely unexplored in the literature. In this paper, we investigate the network structure inference problem for a general family of continuous- time diffusion models  using an $\\ell_1$-regularized likelihood maximization framework.   We show that, as long as the cascade sampling process satisfies a natural incoherence condition, our framework can recover the correct network structure with high probability if we observe $O(d^3 \\log N)$ cascades, where $d$ is the maximum number of parents of a node and $N$ is the total number of nodes. Moreover, we develop a  simple and efficient soft-thresholding network inference algorithm which demonstrate the match between our theoretical prediction and empirical results. In practice, this new algorithm also outperforms other alternatives in terms of the accuracy of recovering hidden diffusion networks.",
+    "authors": [
+        "Manuel Gomez-Rodriguez",
+        "Le Song",
+        "Hadi Daneshm",
+        "",
+        "Bernhard Sch\\\"{o}lkopf"
+    ],
+    "id": "14-430",
+    "issue": 90,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Estimating Diffusion Networks: Recovery Conditions, Sample Complexity and Soft-thresholding Algorithm",
+    "volume": 17,
+    "year": 2016
+}

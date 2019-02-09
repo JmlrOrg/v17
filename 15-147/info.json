@@ -1,0 +1,19 @@
+{
+    "abstract": "We introduce a family of adaptive estimators on graphs, based on penalizing the $\\ell_1$ norm of discrete graph differences. This generalizes the idea of trend filtering (Kim et al., 2009; Tibshirani, 2014), used for univariate nonparametric regression, to graphs. Analogous to the univariate case, graph trend filtering exhibits a level of local adaptivity unmatched by the usual $\\ell_2$-based graph smoothers. It is also defined by a convex minimization problem that is readily solved (e.g., by fast ADMM or Newton algorithms). We demonstrate the merits of graph trend filtering through both examples and theory.",
+    "authors": [
+        "Yu-Xiang Wang",
+        "James Sharpnack",
+        "Alex",
+        "er J. Smola",
+        "Ryan J. Tibshirani"
+    ],
+    "id": "15-147",
+    "issue": 105,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Trend Filtering on Graphs",
+    "volume": 17,
+    "year": 2016
+}

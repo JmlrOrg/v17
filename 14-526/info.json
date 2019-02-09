@@ -1,0 +1,16 @@
+{
+    "abstract": "Traditional extensions of the binary support vector machine (SVM) to multiclass problems are either heuristics or require solving a large dual optimization problem. Here, a generalized multiclass SVM is proposed called GenSVM. In this method classification boundaries for a $K$-class problem are constructed in a $(K-1)$-dimensional space using a simplex encoding. Additionally, several different weightings of the misclassification errors are incorporated in the loss function, such that it generalizes three existing multiclass SVMs through a single optimization problem. An iterative majorization algorithm is derived that solves the optimization problem without the need of a dual formulation. This algorithm has the advantage that it can use warm starts during cross validation and during a grid search, which significantly speeds up the training phase. Rigorous numerical experiments compare linear GenSVM with seven existing multiclass SVMs on both small and large data sets. These comparisons show that the proposed method is competitive with existing methods in both predictive accuracy and training time, and that it significantly outperforms several existing methods on these criteria.",
+    "authors": [
+        "Gerrit J.J. van den Burg",
+        "Patrick J.F. Groenen"
+    ],
+    "id": "14-526",
+    "issue": 225,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "GenSVM: A Generalized Multiclass Support Vector Machine",
+    "volume": 17,
+    "year": 2016
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "Max-convolution is an important problem closely resembling standard convolution; as such, max-convolution occurs frequently across many fields. Here we extend the method with fastest known worst-case runtime, which can be applied to nonnegative vectors by numerically approximating the Chebyshev norm $\\| \\cdot \\|_\\infty$, and use this approach to derive two numerically stable methods based on the idea of computing $p$-norms via fast convolution: The first method proposed, with runtime in $O( k \\log(k) \\log(\\log(k)) )$ (which is less than $18 k \\log(k)$ for any vectors that can be practically realized), uses the $p$-norm as a direct approximation of the Chebyshev norm. The second approach proposed, with runtime in $O( k \\log(k) )$ (although in practice both perform similarly), uses a novel null space projection method, which extracts information from a sequence of $p$-norms to estimate the maximum value in the vector (this is equivalent to querying a small number of moments from a distribution of bounded support in order to estimate the maximum). The $p$-norm approaches are compared to one another and are shown to compute an approximation of the Viterbi path in a hidden Markov model where the transition matrix is a Toeplitz matrix; the runtime of approximating the Viterbi path is thus reduced from $O( n k^2 )$ steps to $O( n k \\log(k))$ steps in practice, and is demonstrated by inferring the U.S. unemployment rate from the S&amp;P 500 stock index.",
+    "authors": [
+        "Julianus Pfeuffer",
+        "Oliver Serang"
+    ],
+    "id": "15-319",
+    "issue": 36,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "A Bounded p-norm Approximation of Max-Convolution for Sub-Quadratic Bayesian Inference on Additive Factors",
+    "volume": 17,
+    "year": 2016
+}

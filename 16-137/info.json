@@ -1,0 +1,16 @@
+{
+    "abstract": " <p>This article describes a method for constructing a special rule (we call it synergy rule) that uses as its input information the outputs (scores) of several monotonic rules which solve the same pattern recognition problem. As an example of scores of such monotonic rules we consider here scores of SVM classifiers.</p> <p>In order to construct the optimal synergy rule, we estimate the conditional probability function based on the direct problem setting, which requires solving a Fredholm integral equation. Generally, solving a Fredholm equation is an ill-posed problem. However, in our model, we look for the solution of the equation in the set of monotonic and bounded functions, which makes the problem well-posed. This allows us to solve the equation accurately even with training data sets of limited size.</p> <p>In order to construct a monotonic solution, we use the set of functions that belong to Reproducing Kernel Hilbert Space (RKHS) associated with the INK-spline kernel (splines with Infinite Numbers of Knots) of degree zero. The paper provides details of the methods for finding multidimensional conditional probability in a set of monotonic functions to obtain the corresponding synergy rules. We demonstrate effectiveness of such rules for 1) solving standard pattern recognition problems, 2) constructing multi-class classification rules, 3) constructing a method for knowledge transfer from multiple intelligent teachers in the LUPI paradigm.</p>",
+    "authors": [
+        "Vladimir Vapnik",
+        "Rauf Izmailov"
+    ],
+    "id": "16-137",
+    "issue": 136,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Synergy of Monotonic Rules",
+    "volume": 17,
+    "year": 2016
+}

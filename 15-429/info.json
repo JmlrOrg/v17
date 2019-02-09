@@ -1,0 +1,19 @@
+{
+    "abstract": "Electronic Health Record (EHR) phenotyping utilizes patient data captured through normal medical practice, to identify features that may represent computational medical phenotypes. These features may be used to identify at-risk patients and improve prediction of patient morbidity and mortality. We present a novel deep multi-modality architecture for EHR analysis (applicable to joint analysis of <em>multiple</em> forms of EHR data), based on Poisson Factor Analysis (PFA) modules. Each modality, composed of observed counts, is represented as a Poisson distribution, parameterized in terms of hidden binary units. Information from different modalities is shared via a deep hierarchy of common hidden units. Activation of these binary units occurs with probability characterized as Bernoulli- Poisson link functions, instead of more traditional logistic link functions. In addition, we demonstrate that PFA modules can be adapted to discriminative modalities. To compute model parameters, we derive efficient Markov Chain Monte Carlo (MCMC) inference that scales efficiently, with significant computational gains when compared to related models based on logistic link functions. To explore the utility of these models, we apply them to a subset of patients from the Duke-Durham patient cohort. We identified a cohort of over 16,000 patients with Type 2 Diabetes Mellitus (T2DM) based on diagnosis codes and laboratory tests out of our patient population of over 240,000. Examining the common hidden units uniting the PFA modules, we identify patient features that represent medical concepts. Experiments indicate that our learned features are better able to predict mortality and morbidity than clinical features identified previously in a large-scale clinical trial.",
+    "authors": [
+        "Ricardo Henao",
+        "James T. Lu",
+        "Joseph E. Lucas",
+        "Jeffrey Ferranti",
+        "Lawrence Carin"
+    ],
+    "id": "15-429",
+    "issue": 186,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Electronic Health Record Analysis via Deep Poisson Factor Models",
+    "volume": 17,
+    "year": 2016
+}

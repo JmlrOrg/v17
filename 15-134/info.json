@@ -1,0 +1,17 @@
+{
+    "abstract": "We study minimax rates for denoising simultaneously sparse and low rank matrices in high dimensions. We show that an iterative thresholding algorithm achieves (near) optimal rates adaptively under mild conditions for a large class of loss functions. Numerical experiments on synthetic datasets also demonstrate the competitive performance of the proposed method.",
+    "authors": [
+        "Dan Yang",
+        "Zongming Ma",
+        "Andreas Buja"
+    ],
+    "id": "15-134",
+    "issue": 92,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "Rate Optimal Denoising of Simultaneously Sparse and Low Rank Matrices",
+    "volume": 17,
+    "year": 2016
+}

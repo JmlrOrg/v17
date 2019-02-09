@@ -1,0 +1,15 @@
+{
+    "abstract": "This article studies the achievable guarantees on the error rates of certain learning algorithms, with particular focus on refining logarithmic factors. Many of the results are based on a general technique for obtaining bounds on the error rates of sample-consistent classifiers with monotonic error regions, in the realizable case. We prove bounds of this type expressed in terms of either the VC dimension or the sample compression size. This general technique also enables us to derive several new bounds on the error rates of general sample-consistent learning algorithms, as well as refined bounds on the label complexity of the CAL active learning algorithm. Additionally, we establish a simple necessary and sufficient condition for the existence of a distribution-free bound on the error rates of all sample- consistent learning rules, converging at a rate inversely proportional to the sample size. We also study learning in the presence of classification noise, deriving a new excess error rate guarantee for general VC classes under Tsybakov's noise condition, and establishing a simple and general necessary and sufficient condition for the minimax excess risk under bounded noise to converge at a rate inversely proportional to the sample size.",
+    "authors": [
+        "Steve Hanneke"
+    ],
+    "id": "15-655",
+    "issue": 135,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Refined Error Bounds for Several Learning Algorithms",
+    "volume": 17,
+    "year": 2016
+}

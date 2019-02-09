@@ -1,0 +1,17 @@
+{
+    "abstract": "Learning risk scores to predict dichotomous or continuous outcomes using machine learning approaches has been studied extensively. However, how to learn risk scores for time-to-event outcomes subject to right censoring has received little attention until recently. Existing approaches rely on inverse probability weighting or rank-based regression, which may be inefficient. In this paper, we develop a new support vector hazards machine (SVHM) approach to predict censored outcomes. Our method is based on predicting the counting process associated with the time-to-event outcomes among subjects at risk via a series of support vector machines. Introducing counting processes to represent time-to-event data leads to a connection between support vector machines in supervised learning and hazards regression in standard survival analysis. To account for different at risk populations at observed event times, a time-varying offset is used in estimating risk scores. The resulting optimization is a convex quadratic programming problem that can easily incorporate non-linearity using kernel trick. We demonstrate an interesting link from the profiled empirical risk function of SVHM to the Cox partial likelihood. We then formally show that SVHM is optimal in discriminating covariate-specific hazard function from population average hazard function, and establish the consistency and learning rate of the predicted risk using the estimated risk scores. Simulation studies show improved prediction accuracy of the event times using SVHM compared to existing machine learning methods and standard conventional approaches. Finally, we analyze two real world biomedical study data where we use clinical markers and neuroimaging biomarkers to predict age-at- onset of a disease, and demonstrate superiority of SVHM in distinguishing high risk versus low risk subjects.",
+    "authors": [
+        "Yuanjia Wang",
+        "Tianle Chen",
+        "Donglin Zeng"
+    ],
+    "id": "16-007",
+    "issue": 167,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Support Vector Hazards Machine: A Counting Process Framework for Learning Risk Scores for Censored Outcomes",
+    "volume": 17,
+    "year": 2016
+}

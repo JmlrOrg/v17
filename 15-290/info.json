@@ -1,0 +1,17 @@
+{
+    "abstract": "The PAC-Bayesian approach is a powerful set of techniques to derive non-asymptotic risk bounds for random estimators. The corresponding optimal distribution of estimators, usually called the Gibbs posterior, is unfortunately often intractable. One may sample from it using Markov chain Monte Carlo, but this is usually too slow for big datasets. We consider instead variational approximations of the Gibbs posterior, which are fast to compute. We undertake a general study of the properties of such approximations. Our main finding is that such a variational approximation has often the same rate of convergence as the original PAC-Bayesian procedure it approximates. In addition, we show that, when the risk function is convex, a variational approximation can be obtained in polynomial time using a convex solver. We give finite sample oracle inequalities for the corresponding estimator. We specialize our results to several learning tasks (classification, ranking, matrix completion), discuss how to implement a variational approximation in each case, and illustrate the good properties of said approximation on real datasets.",
+    "authors": [
+        "Pierre Alquier",
+        "James Ridgway",
+        "Nicolas Chopin"
+    ],
+    "id": "15-290",
+    "issue": 239,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "On the properties of variational approximations of Gibbs posteriors",
+    "volume": 17,
+    "year": 2016
+}

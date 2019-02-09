@@ -1,0 +1,16 @@
+{
+    "abstract": "We use a geometric digraph family called class cover catch digraphs (CCCDs) to tackle the class imbalance problem in statistical classification. CCCDs provide graph theoretic solutions to the class cover problem and have been employed in classification. We assess the classification performance of CCCD classifiers by extensive Monte Carlo simulations, comparing them with other classifiers commonly used in the literature. In particular, we show that CCCD classifiers perform relatively well when one class is more frequent than the other in a two- class setting, an example of the <em>class imbalance problem</em>. We also point out the relationship between class imbalance and class overlapping problems, and their influence on the performance of CCCD classifiers and other classification methods as well as some state-of-the-art algorithms which are robust to class imbalance by construction. Experiments on both simulated and real data sets indicate that CCCD classifiers are robust to the class imbalance problem. CCCDs substantially undersample from the majority class while preserving the information on the discarded points during the undersampling process. Many state- of-the-art methods, however, keep this information by means of ensemble classifiers, but CCCDs yield only a single classifier with the same property, making it both appealing and fast.",
+    "authors": [
+        "Art\\\"{u}r Manukyan",
+        "Elvan Ceyhan"
+    ],
+    "id": "15-604",
+    "issue": 189,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Classification of Imbalanced Data with a Geometric Digraph Family",
+    "volume": 17,
+    "year": 2016
+}

@@ -1,0 +1,18 @@
+{
+    "abstract": "Cluster analysis by nonnegative low-rank approximations has experienced a remarkable progress in the past decade. However, the majority of such approximation approaches are still restricted to nonnegative matrix factorization (NMF) and suffer from the following two drawbacks: 1) they are unable to produce balanced partitions for large-scale manifold data which are common in real-world clustering tasks; 2) most existing NMF-type clustering methods cannot automatically determine the number of clusters. We propose a new low-rank learning method to address these two problems, which is beyond matrix factorization. Our method approximately decomposes a sparse input similarity in a normalized way and its objective can be used to learn both cluster assignments and the number of clusters. For efficient optimization, we use a relaxed formulation based on Data- Cluster-Data random walk, which is also shown to be equivalent to low-rank factorization of the doubly-stochastically normalized cluster incidence matrix. The probabilistic cluster assignments can thus be learned with a multiplicative majorization-minimization algorithm. Experimental results show that the new method is more accurate both in terms of clustering large-scale manifold data sets and of selecting the number of clusters.",
+    "authors": [
+        "Zhirong Yang",
+        "Jukka Cor",
+        "er",
+        "Erkki Oja"
+    ],
+    "id": "15-549",
+    "issue": 187,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Low-Rank Doubly Stochastic Matrix Decomposition for Cluster Analysis",
+    "volume": 17,
+    "year": 2016
+}

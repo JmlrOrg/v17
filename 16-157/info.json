@@ -1,0 +1,17 @@
+{
+    "abstract": "The article examines in some detail the convergence rate and mean-square-error performance of momentum stochastic gradient methods in the constant step-size and slow adaptation regime. The results establish that momentum methods are equivalent to the standard stochastic gradient method with a re-scaled (larger) step-size value. The size of the re-scaling is determined by the value of the momentum parameter. The equivalence result is established for all time instants and not only in steady-state. The analysis is carried out for general strongly convex and smooth risk functions, and is not limited to quadratic risks. One notable conclusion is that the well-known benefits of momentum constructions for deterministic optimization problems do not necessarily carry over to the adaptive online setting when small constant step-sizes are used to enable continuous adaptation and learning in the presence of persistent gradient noise. From simulations, the equivalence between momentum and standard stochastic gradient methods is also observed for non-differentiable and non-convex problems.",
+    "authors": [
+        "Kun Yuan",
+        "Bicheng Ying",
+        "Ali H. Sayed"
+    ],
+    "id": "16-157",
+    "issue": 192,
+    "pages": [
+        1,
+        66
+    ],
+    "title": "On the Influence of Momentum Acceleration on Online Learning",
+    "volume": 17,
+    "year": 2016
+}

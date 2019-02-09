@@ -1,0 +1,22 @@
+{
+    "abstract": "The <code>mlr</code> package provides a generic, object- oriented, and extensible framework for classification, regression, survival analysis and clustering for the R language. It provides a unified interface to more than 160 basic learners and includes meta-algorithms and model selection techniques to improve and extend the functionality of basic learners with, e.g., hyperparameter tuning, feature selection, and ensemble construction. Parallel high-performance computing is natively supported. The package targets practitioners who want to quickly apply machine learning algorithms, as well as researchers who want to implement, benchmark, and compare their new methods in a structured environment.",
+    "authors": [
+        "Bernd Bischl",
+        "Michel Lang",
+        "Lars Kotthoff",
+        "Julia Schiffner",
+        "Jakob Richter",
+        "Erich Studerus",
+        "Giuseppe Casalicchio",
+        "Zachary M. Jones"
+    ],
+    "id": "15-066",
+    "issue": 170,
+    "pages": [
+        1,
+        5
+    ],
+    "title": "mlr: Machine Learning in R",
+    "volume": 17,
+    "year": 2016
+}

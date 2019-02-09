@@ -1,0 +1,17 @@
+{
+    "abstract": "This work analyzes centered Restricted Boltzmann Machines (RBMs) and centered Deep Boltzmann Machines (DBMs), where centering is done by subtracting offset values from visible and hidden variables. We show analytically that (i) centered and normal Boltzmann Machines (BMs) and thus RBMs and DBMs are different parameterizations of the same model class, such that any normal BM/RBM/DBM can be transformed to an equivalent centered BM/RBM/DBM and <em>vice versa</em>, and that this equivalence generalizes to artificial neural networks in general, (ii) the expected performance of centered binary BMs/RBMs/DBMs is invariant under simultaneous flip of data and offsets, for any offset value in the range of zero to one, (iii) centering can be reformulated as a different update rule for normal BMs/RBMs/DBMs, and (iv) using the enhanced gradient is equivalent to setting the offset values to the average over model and data mean. Furthermore, we present numerical simulations suggesting that (i) optimal generative performance is achieved by subtracting mean values from visible as well as hidden variables, (ii) centered binary RBMs/DBMs reach significantly higher log-likelihood values than normal binary RBMs/DBMs, (iii) centering variants whose offsets depend on the model mean, like the enhanced gradient, suffer from severe divergence problems, (iv) learning is stabilized if an exponentially moving average over the batch means is used for the offset values instead of the current batch mean, which also prevents the enhanced gradient from severe divergence, (v) on a similar level of log-likelihood values centered binary RBMs/DBMs have smaller weights and bigger bias parameters than normal binary RBMs/DBMs, (vi) centering leads to an update direction that is closer to the natural gradient, which is extremely efficient for training as we show for small binary RBMs, (vii) centering eliminates the need for greedy layer-wise pre-training of DBMs, which often even deteriorates the results independently of whether centering is used or not, and (ix) centering is also beneficial for auto encoders.",
+    "authors": [
+        "Jan Melchior",
+        "Asja Fischer",
+        "Laurenz Wiskott"
+    ],
+    "id": "14-237",
+    "issue": 99,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "How to Center Deep Boltzmann Machines",
+    "volume": 17,
+    "year": 2016
+}

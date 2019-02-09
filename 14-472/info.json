@@ -1,0 +1,18 @@
+{
+    "abstract": "Latent factor models are the canonical statistical tool for exploratory analyses of low-dimensional linear structure for a matrix of $p$ features across $n$ samples. We develop a structured Bayesian group factor analysis model that extends the factor model to multiple coupled observation matrices; in the case of two observations, this reduces to a Bayesian model of canonical correlation analysis. Here, we carefully define a structured Bayesian prior that encourages both element-wise and column-wise shrinkage and leads to desirable behavior on high- dimensional data. In particular, our model puts a structured prior on the joint factor loading matrix, regularizing at three levels, which enables element-wise sparsity and unsupervised recovery of latent factors corresponding to structured variance across arbitrary subsets of the observations. In addition, our structured prior allows for both dense and sparse latent factors so that covariation among either all features or only a subset of features can be recovered. We use fast parameter-expanded expectation-maximization for parameter estimation in this model. We validate our method on simulated data with substantial structure. We show results of our method applied to three high- dimensional data sets, comparing results against a number of state-of-the-art approaches. These results illustrate useful properties of our model, including i) recovering sparse signal in the presence of dense effects; ii) the ability to scale naturally to large numbers of observations; iii) flexible observation- and factor-specific regularization to recover factors with a wide variety of sparsity levels and percentage of variance explained; and iv) tractable inference that scales to modern genomic and text data sizes.",
+    "authors": [
+        "Shiwen Zhao",
+        "Chuan Gao",
+        "Sayan Mukherjee",
+        "Barbara E Engelhardt"
+    ],
+    "id": "14-472",
+    "issue": 196,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Bayesian group factor analysis with structured sparsity",
+    "volume": 17,
+    "year": 2016
+}

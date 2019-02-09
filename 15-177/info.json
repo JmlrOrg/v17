@@ -1,0 +1,17 @@
+{
+    "abstract": "The proliferation of electronic health records (EHRs) frames opportunities for using machine learning to build models that help healthcare providers improve patient outcomes. However, building useful risk stratification models presents many technical challenges including the large number of factors (both intrinsic and extrinsic) influencing a patient's risk of an adverse outcome and the inherent evolution of that risk over time. We address these challenges in the context of learning a risk stratification model for predicting which patients are at risk of acquiring a <em>Clostridium difficile</em> infection (CDI). We take a novel data-centric approach, leveraging the contents of EHRs from nearly 50,000 hospital admissions. We show how, by adapting techniques from multitask learning, we can learn models for patient risk stratification with unprecedented classification performance. Our model, based on thousands of variables, both time-varying and time-invariant, changes over the course of a patient admission. Applied to a held out set of approximately 25,000 patient admissions, we achieve an area under the receiver operating characteristic curve of 0.81 (95% CI 0.78-0.84). The model has been integrated into the health record system at a large hospital in the US, and can be used to produce daily risk estimates for each inpatient. While more complex than traditional risk stratification methods, the widespread development and use of such data-driven models could ultimately enable cost-effective, targeted prevention strategies that lead to better patient outcomes.",
+    "authors": [
+        "Jenna Wiens",
+        "John Guttag",
+        "Eric Horvitz"
+    ],
+    "id": "15-177",
+    "issue": 209,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "Patient Risk Stratification with Time-Varying Parameters: A Multitask Learning Approach",
+    "volume": 17,
+    "year": 2016
+}

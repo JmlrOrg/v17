@@ -1,0 +1,18 @@
+{
+    "abstract": "In regression problems over $\\mathbb{R}^d$, the unknown function $f$ often varies more in some coordinates than in others. We show that weighting each coordinate $i$ according to an estimate of the variation of $f$ along coordinate $i$ -- e.g. the $L_1$ norm of the $i$th-directional derivative of $f$ -- is an efficient way to significantly improve the performance of distance-based regressors such as kernel and $k$-NN regressors. The approach, termed Gradient Weighting (GW), consists of a first pass regression estimate $f_n$ which serves to evaluate the directional derivatives of $f$, and a second-pass regression estimate on the re-weighted data. The GW approach can be instantiated for both regression and classification, and is grounded in strong theoretical principles having to do with the way regression bias and variance are affected by a generic feature-weighting scheme. These theoretical principles provide further technical foundation for some existing feature-weighting heuristics that have proved successful in practice. We propose a simple estimator of these derivative norms and prove its consistency. The proposed estimator computes efficiently and easily extends to run online. We then derive a classification version of the GW approach which evaluates on real-worlds datasets with as much success as its regression counterpart.",
+    "authors": [
+        "Samory Kpotufe",
+        "Abdeslam Boularias",
+        "Thomas Schultz",
+        "Kyoungok Kim"
+    ],
+    "id": "13-351",
+    "issue": 22,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Gradients Weights improve Regression and Classification",
+    "volume": 17,
+    "year": 2016
+}

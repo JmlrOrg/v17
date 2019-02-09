@@ -1,0 +1,17 @@
+{
+    "abstract": "In this article, we develop and investigate a new classifier based on features extracted using spatial depth. Our construction is based on fitting a generalized additive model to posterior probabilities of different competing classes. To cope with possible multi-modal as well as non-elliptic nature of the population distribution, we also develop a localized version of spatial depth and use that with varying degrees of localization to build the classifier. Final classification is done by aggregating several posterior probability estimates, each of which is obtained using this localized spatial depth with a fixed scale of localization. The proposed classifier can be conveniently used even when the dimension of the data is larger than the sample size, and its good discriminatory power for such data has been established using theoretical as well as numerical results.",
+    "authors": [
+        "Subhajit Dutta",
+        "Soham Sarkar",
+        "Anil K. Ghosh"
+    ],
+    "id": "16-113",
+    "issue": 218,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Multi-scale Classification using Localized Spatial Depth",
+    "volume": 17,
+    "year": 2016
+}

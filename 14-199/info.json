@@ -1,0 +1,17 @@
+{
+    "abstract": "Symmetric positive semidefinite (SPSD) matrix approximation is an important problem with applications in kernel methods. However, existing SPSD matrix approximation methods such as the Nystr\u00c3\u00b6m method only have weak error bounds. In this paper we conduct in-depth studies of an SPSD matrix approximation model and establish strong relative-error bounds. We call it the prototype model for it has more efficient and effective extensions, and some of its extensions have high scalability. Though the prototype model itself is not suitable for large- scale data, it is still useful to study its properties, on which the analysis of its extensions relies. This paper offers novel theoretical analysis, efficient algorithms, and a highly accurate extension. First, we establish a lower error bound for the prototype model and improve the error bound of an existing column selection algorithm to match the lower bound. In this way, we obtain the first optimal column selection algorithm for the prototype model. We also prove that the prototype model is exact under certain conditions. Second, we develop a simple column selection algorithm with a provable error bound. Third, we propose a so-called spectral shifting model to make the approximation more accurate when the eigenvalues of the matrix decay slowly, and the improvement is theoretically quantified. The spectral shifting method can also be applied to improve other SPSD matrix approximation models.",
+    "authors": [
+        "Shusen Wang",
+        "Luo Luo",
+        "Zhihua Zhang"
+    ],
+    "id": "14-199",
+    "issue": 49,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "SPSD Matrix Approximation vis Column Selection: Theories, Algorithms, and Extensions",
+    "volume": 17,
+    "year": 2016
+}

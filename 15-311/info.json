@@ -1,0 +1,16 @@
+{
+    "abstract": " <p>Slow feature analysis (SFA) is an unsupervised learning algorithm that extracts slowly varying features from a multi- dimensional time series. Graph-based SFA (GSFA) is an extension to SFA for supervised learning that can be used to successfully solve regression problems if combined with a simple supervised post-processing step on a small number of slow features. The objective function of GSFA minimizes the squared output differences between pairs of samples specified by the edges of a structure called training graph. The edges of current training graphs, however, are derived only from the relative order of the labels. Exploiting the exact numerical value of the labels enables further improvements in label estimation accuracy.</p> <p>In this article, we propose the exact label learning (ELL) method to create a more precise training graph that encodes the desired labels explicitly and allows GSFA to extract a normalized version of them directly (i.e., without supervised post- processing). The ELL method is used for three tasks: (1) We estimate gender from artificial images of human faces (regression) and show the advantage of coding additional labels, particularly skin color. (2) We analyze two existing graphs for regression. (3) We extract <em>compact</em> discriminative features to classify traffic sign images. When the number of output features is limited, such compact features provide a higher classification rate compared to a graph that generates features equivalent to those of nonlinear Fisher discriminant analysis. The method is versatile, directly supports multiple labels, and provides higher accuracy compared to current graphs for the problems considered.</p>",
+    "authors": [
+        "Alberto N. Escalante-B.",
+        "Laurenz Wiskott"
+    ],
+    "id": "15-311",
+    "issue": 157,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Theoretical Analysis of the Optimal Free Responses of Graph-Based SFA for the Design of Training Graphs",
+    "volume": 17,
+    "year": 2016
+}

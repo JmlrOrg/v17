@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper considers the problem of subspace clustering under noise. Specifically, we study the behavior of Sparse Subspace Clustering (SSC) when either adversarial or random noise is added to the unlabeled input data points, which are assumed to be in a union of low-dimensional subspaces. We show that a modified version of SSC is <i>provably effective</i> in correctly identifying the underlying subspaces, even with noisy data. This extends theoretical guarantee of this algorithm to more practical settings and provides justification to the success of SSC in a class of real applications.",
+    "authors": [
+        "Yu-Xiang Wang",
+        "Huan Xu"
+    ],
+    "id": "13-354",
+    "issue": 12,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Noisy Sparse Subspace Clustering",
+    "volume": 17,
+    "year": 2016
+}

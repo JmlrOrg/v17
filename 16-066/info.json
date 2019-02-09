@@ -1,0 +1,17 @@
+{
+    "abstract": "Rank aggregation based on pairwise comparisons over a set of items has a wide range of applications. Although considerable research has been devoted to the development of rank aggregation algorithms, one basic question is how to efficiently collect a large amount of high-quality pairwise comparisons for the ranking purpose. Because of the advent of many crowdsourcing services, a crowd of workers are often hired to conduct pairwise comparisons with a small monetary reward for each pair they compare. Since different workers have different levels of reliability and different pairs have different levels of ambiguity, it is desirable to wisely allocate the limited budget for comparisons among the pairs of items and workers so that the global ranking can be accurately inferred from the comparison results. To this end, we model the active sampling problem in <em>crowdsourced ranking</em> as a Bayesian Markov decision process, which dynamically selects item pairs and workers to improve the ranking accuracy under a budget constraint. We further develop a computationally efficient sampling policy based on knowledge gradient as well as a moment matching technique for posterior approximation. Experimental evaluations on both synthetic and real data show that the proposed policy achieves high ranking accuracy with a lower labeling cost.",
+    "authors": [
+        "Xi Chen",
+        "Kevin Jiao",
+        "Qihang Lin"
+    ],
+    "id": "16-066",
+    "issue": 217,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Bayesian Decision Process for Cost-Efficient Dynamic Ranking via Crowdsourcing",
+    "volume": 17,
+    "year": 2016
+}

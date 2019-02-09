@@ -1,0 +1,17 @@
+{
+    "abstract": " <p>Optimization on manifolds is a class of methods for optimization of an objective function, subject to constraints which are smooth, in the sense that the set of points which satisfy the constraints admits the structure of a differentiable manifold. While many optimization problems are of the described form, technicalities of differential geometry and the laborious calculation of derivatives pose a significant barrier for experimenting with these methods.</p> <p>We introduce Pymanopt (available at <a href=\"https://pymanopt.github.io\">pymanopt.github.io</a>), a toolbox for optimization on manifolds, implemented in Python, that---similarly to the <a href=\"http://manopt.org\">Manopt</a> Matlab toolbox---implements several manifold geometries and optimization algorithms. Moreover, we lower the barriers to users further by using automated differentiation for calculating derivative information, saving users time and saving them from potential calculation and implementation errors.</p>",
+    "authors": [
+        "James Townsend",
+        "Niklas Koep",
+        "Sebastian Weichwald"
+    ],
+    "id": "16-177",
+    "issue": 137,
+    "pages": [
+        1,
+        5
+    ],
+    "title": "Pymanopt: A Python Toolbox for Optimization on Manifolds using Automatic Differentiation",
+    "volume": 17,
+    "year": 2016
+}

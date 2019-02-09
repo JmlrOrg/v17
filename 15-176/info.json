@@ -1,0 +1,20 @@
+{
+    "abstract": "Despite tremendous progress in computer vision, there has not been an attempt to apply machine learning on very large-scale medical image databases. We present an interleaved text/image deep learning system to extract and mine the semantic interactions of radiology images and reports from a national research hospital's Picture Archiving and Communication System. With natural language processing, we mine a collection of $\\sim$216K representative two-dimensional images selected by clinicians for diagnostic reference and match the images with their descriptions in an automated manner. We then employ a weakly supervised approach using all of our available data to build models for generating approximate interpretations of patient images. Finally, we demonstrate a more strictly supervised approach to detect the presence and absence of a number of frequent disease types, providing more specific interpretations of patient scans. A relatively small amount of data is used for this part, due to the challenge in gathering quality labels from large raw text data. Our work shows the feasibility of large-scale learning and prediction in electronic patient records available in most modern clinical institutions. It also demonstrates the trade-offs to consider in designing machine learning systems for analyzing large medical data.",
+    "authors": [
+        "Hoo-Chang Shin",
+        "Le Lu",
+        "Lauren Kim",
+        "Ari Seff",
+        "Jianhua Yao",
+        "Ronald M. Summers"
+    ],
+    "id": "15-176",
+    "issue": 107,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Interleaved Text/Image Deep Mining on a Large-Scale Radiology Database for Automated Image Interpretation",
+    "volume": 17,
+    "year": 2016
+}

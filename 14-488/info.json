@@ -1,0 +1,17 @@
+{
+    "abstract": "In this paper we introduce the idea of improving the performance of parametric temporal-difference (TD) learning algorithms by selectively emphasizing or de-emphasizing their updates on different time steps. In particular, we show that varying the emphasis of linear TD($\\lambda$)'s updates in a particular way causes its expected update to become stable under off-policy training. The only prior model-free TD methods to achieve this with per- step computation linear in the number of function approximation parameters are the gradient-TD family of methods including TDC, GTD($\\lambda$), and GQ$\\lambda$). Compared to these methods, our <i>emphatic TD($\\lambda$)</i> is simpler and easier to use; it has only one learned parameter vector and one step-size parameter. Our treatment includes general state- dependent discounting and bootstrapping functions, and a way of specifying varying degrees of interest in accurately valuing different states.",
+    "authors": [
+        "Richard S. Sutton",
+        "A. Rupam Mahmood",
+        "Martha White"
+    ],
+    "id": "14-488",
+    "issue": 73,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "An Emphatic Approach to the Problem of Off-policy Temporal-Difference Learning",
+    "volume": 17,
+    "year": 2016
+}

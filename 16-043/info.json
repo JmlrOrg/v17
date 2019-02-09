@@ -1,0 +1,16 @@
+{
+    "abstract": "Local network community detection is the task of finding a single community of nodes concentrated around few given seed nodes in a localized way. Conductance is a popular objective function used in many algorithms for local community detection. This paper studies a continuous relaxation of conductance. We show that continuous optimization of this objective still leads to discrete communities. We investigate the relation of conductance with weighted kernel k-means for a single community, which leads to the introduction of a new objective function, $\\sigma$-conductance. Conductance is obtained by setting $\\sigma$ to $0$. Two algorithms, EMc and PGDc, are proposed to locally optimize $\\sigma$-conductance and automatically tune the parameter $\\sigma$. They are based on expectation maximization and projected gradient descent, respectively. We prove locality and give performance guarantees for EMc and PGDc for a class of dense and well separated communities centered around the seeds. Experiments are conducted on networks with ground-truth communities, comparing to state-of-the-art graph diffusion algorithms for conductance optimization. On large graphs, results indicate that EMc and PGDc stay localized and produce communities most similar to the ground, while graph diffusion algorithms generate large communities of lower quality. (Source code of the algorithms used in the paper is available   <a href=\"http://cs.ru.nl/tvanlaarhoven/conductance2016\">online</a>.)",
+    "authors": [
+        "Twan van Laarhoven",
+        "Elena Marchiori"
+    ],
+    "id": "16-043",
+    "issue": 147,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Local Network Community Detection with Continuous Optimization of Conductance and Weighted Kernel K-Means",
+    "volume": 17,
+    "year": 2016
+}

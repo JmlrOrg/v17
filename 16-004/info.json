@@ -1,0 +1,18 @@
+{
+    "abstract": "Analyzing multi-layered graphical models provides insight into understanding the conditional relationships among nodes within layers after adjusting for and quantifying the effects of nodes from other layers. We obtain the penalized maximum likelihood estimator for Gaussian multi-layered graphical models, based on a computational approach involving screening of variables, iterative estimation of the directed edges between layers and undirected edges within layers and a final refitting and stability selection step that provides improved performance in finite sample settings. We establish the consistency of the estimator in a high-dimensional setting. To obtain this result, we develop a strategy that leverages the biconvexity of the likelihood function to ensure convergence of the developed iterative algorithm to a stationary point, as well as careful uniform error control of the estimates over iterations. The performance of the maximum likelihood estimator is illustrated on synthetic data.",
+    "authors": [
+        "Jiahe Lin",
+        "Sumanta Basu",
+        "Moulinath Banerjee",
+        "George Michailidis"
+    ],
+    "id": "16-004",
+    "issue": 146,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Penalized Maximum Likelihood Estimation of Multi-layered Gaussian Graphical Models",
+    "volume": 17,
+    "year": 2016
+}

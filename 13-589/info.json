@@ -1,0 +1,16 @@
+{
+    "abstract": "Traditionally the machine-learning community has viewed the No Free Lunch (NFL) theorems for search and optimization as a limitation. We review, analyze, and unify the NFL theorem with the perspectives of \"blind\" search and meta-learning to arrive at necessary conditions for improving black-box optimization. We survey meta-learning literature to determine when and how meta- learning can benefit machine learning. Then, we generalize meta- learning in the context of the NFL theorems, to arrive at a novel technique called <i>anti-training with sacrificial data</i> (ATSD). Our technique applies at the meta level to arrive at domain specific algorithms. We also show how to generate sacrificial data. An extensive case study is presented along with simulated annealing results to demonstrate the efficacy of the ATSD method.",
+    "authors": [
+        "Michael L. Valenzuela",
+        "Jerzy W. Rozenblit"
+    ],
+    "id": "13-589",
+    "issue": 24,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Learning Using Anti-Training with Sacrificial Data",
+    "volume": 17,
+    "year": 2016
+}

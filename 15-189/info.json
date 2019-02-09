@@ -1,0 +1,21 @@
+{
+    "abstract": "Data in the form of pairwise comparisons arises in many domains, including preference elicitation, sporting competitions, and peer grading among others. We consider parametric ordinal models for such pairwise comparison data involving a latent vector $w^* \\in \\mathbb{R}^d$ that represents the \u00e2\u0080\u009cqualities\u00e2\u0080\u009d of the $d$ items being compared; this class of models includes the two most widely used parametric models---the Bradley-Terry-Luce (BTL) and the Thurstone models. Working within a standard minimax framework, we provide tight upper and lower bounds on the optimal error in estimating the quality score vector $w^*$ under this class of models. The bounds depend on the topology of the comparison graph induced by the subset of pairs being compared, via the spectrum of the Laplacian of the comparison graph. Thus, in settings where the subset of pairs may be chosen, our results provide principled guidelines for making this choice. Finally, we compare these error rates to those under cardinal measurement models and show that the error rates in the ordinal and cardinal settings have identical scalings apart from constant pre- factors.",
+    "authors": [
+        "Nihar B. Shah",
+        "Sivaraman Balakrishnan",
+        "Joseph Bradley",
+        "Abhay Parekh",
+        "Kannan Ramch",
+        "ran",
+        "Martin J. Wainwright"
+    ],
+    "id": "15-189",
+    "issue": 58,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Estimation from Pairwise Comparisons: Sharp Minimax Bounds with Topology Dependence",
+    "volume": 17,
+    "year": 2016
+}

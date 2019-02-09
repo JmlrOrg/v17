@@ -1,0 +1,16 @@
+{
+    "abstract": "Control of non-episodic, finite-horizon dynamical systems with uncertain dynamics poses a tough and elementary case of the exploration-exploitation trade-off. Bayesian reinforcement learning, reasoning about the effect of actions and future observations, offers a principled solution, but is intractable. We review, then extend an old approximate approach from control theory---where the problem is known as <em>dual control</em>---in the context of modern regression methods, specifically generalized linear regression. Experiments on simulated systems show that this framework offers a useful approximation to the intractable aspects of Bayesian RL, producing structured exploration strategies that differ from standard RL approaches. We provide simple examples for the use of this framework in (approximate) Gaussian process regression and feedforward neural networks for the control of exploration.",
+    "authors": [
+        "Edgar D. Klenske",
+        "Philipp Hennig"
+    ],
+    "id": "15-162",
+    "issue": 127,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Dual Control for Approximate Bayesian Reinforcement Learning",
+    "volume": 17,
+    "year": 2016
+}

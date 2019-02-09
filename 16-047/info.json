@@ -1,0 +1,15 @@
+{
+    "abstract": "We consider the problem of recovering an invertible $n \\times n$ matrix $A$ and a sparse $n \\times p$ random matrix $X$ based on the observation of $Y = AX$ (up to a scaling and permutation of columns of $A$ and rows of $X$). Using only elementary tools from the theory of empirical processes we show that a version of the Er-SpUD algorithm by Spielman, Wang and Wright with high probability recovers $A$ and $X$ exactly, provided that $p \\ge Cn\\log n$, which is optimal up to the constant $C$.",
+    "authors": [
+        "Radoslaw Adamczak"
+    ],
+    "id": "16-047",
+    "issue": 177,
+    "pages": [
+        1,
+        18
+    ],
+    "title": "A Note on the Sample Complexity of the Er-SpUD Algorithm by Spielman, Wang and Wright for Exact Recovery of Sparsely Used Dictionaries",
+    "volume": 17,
+    "year": 2016
+}

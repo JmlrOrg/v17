@@ -1,0 +1,18 @@
+{
+    "abstract": "Policy search methods can allow robots to learn control policies for a wide range of tasks, but practical applications of policy search often require hand-engineered components for perception, state estimation, and low-level control. In this paper, we aim to answer the following question: does training the perception and control systems jointly end-to-end provide better performance than training each component separately? To this end, we develop a method that can be used to learn policies that map raw image observations directly to torques at the robot's motors. The policies are represented by deep convolutional neural networks (CNNs) with 92,000 parameters, and are trained using a guided policy search method, which transforms policy search into supervised learning, with supervision provided by a simple trajectory-centric reinforcement learning method. We evaluate our method on a range of real-world manipulation tasks that require close coordination between vision and control, such as screwing a cap onto a bottle, and present simulated comparisons to a range of prior policy search methods.",
+    "authors": [
+        "Sergey Levine",
+        "Chelsea Finn",
+        "Trevor Darrell",
+        "Pieter Abbeel"
+    ],
+    "id": "15-522",
+    "issue": 39,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "End-to-End Training of Deep Visuomotor Policies",
+    "volume": 17,
+    "year": 2016
+}

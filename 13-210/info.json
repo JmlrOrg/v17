@@ -1,0 +1,16 @@
+{
+    "abstract": "Multi-armed bandit problem is an important optimization game that requires an exploration-exploitation tradeoff to achieve optimal total reward. Motivated from industrial applications such as online advertising and clinical research, we consider a setting where the rewards of bandit machines are associated with covariates, and the accurate estimation of the corresponding mean reward functions plays an important role in the performance of allocation rules. Under a flexible problem setup, we establish asymptotic strong consistency and perform a finite- time regret analysis for a sequential randomized allocation strategy based on kernel estimation. In addition, since many nonparametric and parametric methods in supervised learning may be applied to estimating the mean reward functions but guidance on how to choose among them is generally unavailable, we propose a model combining allocation strategy for adaptive performance. Simulations and a real data evaluation are conducted to illustrate the performance of the proposed allocation strategy.",
+    "authors": [
+        "Wei Qian",
+        "Yuhong Yang"
+    ],
+    "id": "13-210",
+    "issue": 149,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Kernel Estimation and Model Combination in A Bandit Problem with Covariates",
+    "volume": 17,
+    "year": 2016
+}

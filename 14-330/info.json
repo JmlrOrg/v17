@@ -1,0 +1,16 @@
+{
+    "abstract": " <p>We consider two closely related problems: planted clustering and submatrix localization. In the planted clustering problem, a random graph is generated based on an underlying cluster structure of the nodes; the task is to recover these clusters given the graph. The submatrix localization problem concerns locating hidden submatrices with elevated means inside a large real-valued random matrix. Of particular interest is the setting where the number of clusters/submatrices is allowed to grow unbounded with the problem size. These formulations cover several classical models such as planted clique, planted densest subgraph, planted partition, planted coloring, and the stochastic block model, which are widely used for studying community detection, graph clustering and bi-clustering.</p> <p>For both problems, we show that the space of the model parameters (cluster/submatrix size, edge probabilities and the mean of the submatrices) can be partitioned into four disjoint regions corresponding to decreasing statistical and computational complexities: (1) the <i>impossible</i> regime, where all algorithms fail; (2) the <i>hard</i> regime, where the computationally expensive Maximum Likelihood Estimator (MLE) succeeds; (3) the <i>easy</i> regime, where the polynomial-time convexified MLE succeeds; (4) the <i>simple</i> regime, where a local counting/thresholding procedure succeeds. Moreover, we show that each of these algorithms provably fails in the harder regimes.</p> <p>Our results establish the minimax recovery limits, which are tight up to universal constants and hold even with a growing number of clusters/submatrices, and provide order-wise stronger performance guarantees for polynomial-time algorithms than previously known. Our study demonstrates the tradeoffs between statistical and computational considerations, and suggests that the minimax limits may not be achievable by polynomial-time algorithms.</p>",
+    "authors": [
+        "Yudong Chen",
+        "Jiaming Xu"
+    ],
+    "id": "14-330",
+    "issue": 27,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Statistical-Computational Tradeoffs in Planted Problems and Submatrix Localization with a Growing Number of Clusters and Submatrices",
+    "volume": 17,
+    "year": 2016
+}

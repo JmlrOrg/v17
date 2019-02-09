@@ -1,0 +1,18 @@
+{
+    "abstract": "We derive a second-order ordinary differential equation (ODE) which is the limit of Nesterov's accelerated gradient method. This ODE exhibits approximate equivalence to Nesterov's scheme and thus can serve as a tool for analysis. We show that the continuous time ODE allows for a better understanding of Nesterov's scheme. As a byproduct, we obtain a family of schemes with similar convergence rates. The ODE interpretation also suggests restarting Nesterov's scheme leading to an algorithm, which can be rigorously proven to converge at a linear rate whenever the objective is strongly convex.",
+    "authors": [
+        "Weijie Su",
+        "Stephen Boyd",
+        "Emmanuel J. C",
+        "{{\\`e}}s"
+    ],
+    "id": "15-084",
+    "issue": 153,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "A Differential Equation for Modeling Nesterov's Accelerated Gradient Method: Theory and Insights",
+    "volume": 17,
+    "year": 2016
+}

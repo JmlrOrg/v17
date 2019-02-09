@@ -1,0 +1,16 @@
+{
+    "abstract": "Nonparametric regression for large numbers of features ($p$) is an increasingly important problem. If the sample size $n$ is massive, a common strategy is to partition the feature space, and then separately apply simple models to each partition set. This is not ideal when $n$ is modest relative to $p$, and we propose an alternative approach relying on random compression of the feature vector combined with Gaussian process regression. The proposed approach is particularly motivated by the setting in which the response is conditionally independent of the features given the projection to a low dimensional manifold. Conditionally on the random compression matrix and a smoothness parameter, the posterior distribution for the regression surface and posterior predictive distributions are available analytically. Running the analysis in parallel for many random compression matrices and smoothness parameters, model averaging is used to combine the results. The algorithm can be implemented rapidly even in very large $p$ and moderately large $n$ nonparametric regression, has strong theoretical justification, and is found to yield state of the art predictive performance.",
+    "authors": [
+        "Rajarshi Guhaniyogi",
+        "David B. Dunson"
+    ],
+    "id": "14-230",
+    "issue": 69,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Compressed Gaussian Process for Manifold Regression",
+    "volume": 17,
+    "year": 2016
+}

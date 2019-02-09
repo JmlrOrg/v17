@@ -1,0 +1,17 @@
+{
+    "abstract": "Variable selection is popular in high-dimensional data analysis to identify the truly informative variables. Many variable selection methods have been developed under various model assumptions. Whereas success has been widely reported in literature, their performances largely depend on validity of the assumed models, such as the linear or additive models. This article introduces a model-free variable selection method via learning the gradient functions. The idea is based on the equivalence between whether a variable is informative and whether its corresponding gradient function is substantially non-zero. The proposed variable selection method is then formulated in a framework of learning gradients in a flexible reproducing kernel Hilbert space. The key advantage of the proposed method is that it requires no explicit model assumption and allows for general variable effects. Its asymptotic estimation and selection consistencies are studied, which establish the convergence rate of the estimated sparse gradients and assure that the truly informative variables are correctly identified in probability. The effectiveness of the proposed method is also supported by a variety of simulated examples and two real-life examples.",
+    "authors": [
+        "Lei Yang",
+        "Shaogao Lv",
+        "Junhui Wang"
+    ],
+    "id": "15-390",
+    "issue": 82,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "Model-free Variable Selection in Reproducing Kernel Hilbert Space",
+    "volume": 17,
+    "year": 2016
+}

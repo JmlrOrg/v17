@@ -1,0 +1,17 @@
+{
+    "abstract": "On-line portfolio selection is a practical financial engineering problem, which aims to sequentially allocate capital among a set of assets in order to maximize long-term return. In recent years, a variety of machine learning algorithms have been proposed to address this challenging problem, but no comprehensive open-source toolbox has been released for various reasons. This article presents the first open-source toolbox for \"On-Line Portfolio Selection\" (OLPS), which implements a collection of classical and state-of-the-art strategies powered by machine learning algorithms. We hope that OLPS can facilitate the development of new learning methods and enable the performance benchmarking and comparisons of different strategies. OLPS is an open-source project released under Apache License (version 2.0), which is available at <a href=\"https://github.com/OLPS/OLPS\">github.com/OLPS/OLPS</a> or <a href=\"http://OLPS.stevenhoi.org/\">OLPS.stevenhoi.org</a>.",
+    "authors": [
+        "Bin Li",
+        "Doyen Sahoo",
+        "Steven C.H. Hoi"
+    ],
+    "id": "15-317",
+    "issue": 35,
+    "pages": [
+        1,
+        5
+    ],
+    "title": "OLPS: A Toolbox for On-Line Portfolio Selection",
+    "volume": 17,
+    "year": 2016
+}

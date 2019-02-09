@@ -1,0 +1,16 @@
+{
+    "abstract": "In this paper we introduce, in the setting of machine learning, a generalization of wavelet analysis which is a popular approach to low dimensional structured signal analysis. The wavelet decomposition of a Random Forest provides a sparse approximation of any regression or classification high dimensional function at various levels of detail, with a concrete ordering of the Random Forest nodes: from `significant' elements to nodes capturing only `insignificant' noise. Motivated by function space theory, we use the wavelet decomposition to compute numerically a `weak- type' smoothness index that captures the complexity of the underlying function. As we show through extensive experimentation, this sparse representation facilitates a variety of applications such as improved regression for difficult datasets, a novel approach to feature importance, resilience to noisy or irrelevant features, compression of ensembles, etc.",
+    "authors": [
+        "Oren Elisha",
+        "Shai Dekel"
+    ],
+    "id": "15-203",
+    "issue": 198,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Wavelet decompositions of Random Forests - smoothness analysis, sparse approximation and applications",
+    "volume": 17,
+    "year": 2016
+}

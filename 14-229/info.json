@@ -1,0 +1,17 @@
+{
+    "abstract": "A general asymptotic framework is developed for studying consistency properties of principal component analysis (PCA). Our framework includes several previously studied domains of asymptotics as special cases and allows one to investigate interesting connections and transitions among the various domains. More importantly, it enables us to investigate asymptotic scenarios that have not been considered before, and gain new insights into the consistency, subspace consistency and strong inconsistency regions of PCA and the boundaries among them. We also establish the corresponding convergence rate within each region. Under general spike covariance models, the dimension (or number of variables) discourages the consistency of PCA, while the sample size and spike information (the relative size of the population eigenvalues) encourage PCA consistency. Our framework nicely illustrates the relationship among these three types of information in terms of dimension, sample size and spike size, and rigorously characterizes how their relationships affect PCA consistency.",
+    "authors": [
+        "Dan Shen",
+        "Haipeng Shen",
+        "J. S. Marron"
+    ],
+    "id": "14-229",
+    "issue": 150,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "A General Framework for Consistency of Principal Component Analysis",
+    "volume": 17,
+    "year": 2016
+}

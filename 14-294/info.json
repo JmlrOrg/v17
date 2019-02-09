@@ -1,0 +1,17 @@
+{
+    "abstract": "We consider loss functions for multiclass prediction problems. We show when a multiclass loss can be expressed as a <q>proper composite loss</q>, which is the composition of a proper loss and a link function. We extend existing results for binary losses to multiclass losses. We subsume results on \u00e2\u0080\u009cclassification calibration\u00e2\u0080\u009d by relating it to properness. We determine the stationarity condition, Bregman representation, order- sensitivity, and quasi-convexity of multiclass proper losses. We then characterise the existence and uniqueness of the composite representation for multiclass losses. We show how the composite representation is related to other core properties of a loss: mixability, admissibility and (strong) convexity of multiclass losses which we characterise in terms of the Hessian of the Bayes risk. We show that the simple integral representation for binary proper losses can not be extended to multiclass losses but offer concrete guidance regarding how to design different loss functions. The conclusion drawn from these results is that the proper composite representation is a natural and convenient tool for the design of multiclass loss functions.",
+    "authors": [
+        "Robert C. Williamson",
+        "Elodie Vernet",
+        "Mark D. Reid"
+    ],
+    "id": "14-294",
+    "issue": 223,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Composite Multiclass Losses",
+    "volume": 17,
+    "year": 2016
+}

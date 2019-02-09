@@ -1,0 +1,16 @@
+{
+    "abstract": "As data sets of related studies become more easily accessible, combining data sets of similar studies is often undertaken in practice to achieve a larger sample size and higher power. A major challenge arising from data integration pertains to data heterogeneity in terms of study population, study design, or study coordination. Ignoring such heterogeneity in data analysis may result in biased estimation and misleading inference. Traditional techniques of remedy to data heterogeneity include the use of interactions and random effects, which are inferior to achieving desirable statistical power or providing a meaningful interpretation, especially when a large number of smaller data sets are combined. In this paper, we propose a regularized fusion method that allows us to identify and merge inter-study homogeneous parameter clusters in regression analysis, without the use of hypothesis testing approach. Using the fused lasso, we establish a computationally efficient procedure to deal with large-scale integrated data. Incorporating the estimated parameter ordering in the fused lasso facilitates computing speed with no loss of statistical power. We conduct extensive simulation studies and provide an application example to demonstrate the performance of the new method with a comparison to the conventional methods.",
+    "authors": [
+        "Lu Tang",
+        "Peter X.K. Song"
+    ],
+    "id": "15-598",
+    "issue": 113,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "Fused Lasso Approach in Regression Coefficients Clustering -- Learning Parameter Heterogeneity in Data Integration",
+    "volume": 17,
+    "year": 2016
+}

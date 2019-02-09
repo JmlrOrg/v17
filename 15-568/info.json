@@ -1,0 +1,17 @@
+{
+    "abstract": "In this paper we propose a new algorithm to perform clustering of multivariate and functional data. We study the case of two populations different in their covariances, rather than in their means. The algorithm relies on a proper quantification of distance between the estimated covariance operators of the populations, and subdivides data in two groups maximising the distance between their induced covariances. The naive implementation of such an algorithm is computationally forbidding, so we propose a heuristic formulation with a much lighter complexity and we study its convergence properties, along with its computational cost. We also propose to use an enhanced estimator for the estimation of discrete covariances of functional data, namely a linear shrinkage estimator, in order to improve the precision of the clustering. We establish the effectiveness of our algorithm through applications to both synthetic data and a real data set coming from a biomedical context, showing also how the use of shrinkage estimation may lead to substantially better results.",
+    "authors": [
+        "Francesca Ieva",
+        "Anna Maria Paganoni",
+        "Nicholas Tarabelloni"
+    ],
+    "id": "15-568",
+    "issue": 143,
+    "pages": [
+        1,
+        21
+    ],
+    "title": "Covariance-based Clustering in Multivariate and Functional Data Analysis",
+    "volume": 17,
+    "year": 2016
+}

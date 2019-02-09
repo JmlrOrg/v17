@@ -1,0 +1,17 @@
+{
+    "abstract": "We consider a hidden Markov model, where the signal process, given by a diffusion, is only indirectly observed through some noisy measurements. The article develops a variational method for approximating the hidden states of the signal process given the full set of observations. This, in particular, leads to systematic approximations of the smoothing densities of the signal process. The paper then demonstrates how an efficient inference scheme, based on this variational approach to the approximation of the hidden states, can be designed to estimate the unknown parameters of stochastic differential equations. Two examples at the end illustrate the efficacy and the accuracy of the presented method.",
+    "authors": [
+        "Tobias Sutter",
+        "Arnab Ganguly",
+        "Heinz Koeppl"
+    ],
+    "id": "16-075",
+    "issue": 190,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "A Variational Approach to Path Estimation and Parameter Inference of Hidden Diffusion Processes",
+    "volume": 17,
+    "year": 2016
+}

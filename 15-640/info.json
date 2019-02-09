@@ -1,0 +1,17 @@
+{
+    "abstract": "We propose a simple framework for estimating derivatives without fitting the regression function in nonparametric regression. Unlike most existing methods that use the symmetric difference quotients, our method is constructed as a linear combination of observations. It is hence very flexible and applicable to both interior and boundary points, including most existing methods as special cases of ours. Within this framework, we define the variance-minimizing estimators for any order derivative of the regression function with a fixed bias-reduction level. For the equidistant design, we derive the asymptotic variance and bias of these estimators. We also show that our new method will, for the first time, achieve the asymptotically optimal convergence rate for difference-based estimators. Finally, we provide an effective criterion for selection of tuning parameters and demonstrate the usefulness of the proposed method through extensive simulation studies of the first- and second-order derivative estimators.",
+    "authors": [
+        "Wenlin Dai",
+        "Tiejun Tong",
+        "Marc G. Genton"
+    ],
+    "id": "15-640",
+    "issue": 164,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Optimal Estimation of Derivatives in Nonparametric Regression",
+    "volume": 17,
+    "year": 2016
+}

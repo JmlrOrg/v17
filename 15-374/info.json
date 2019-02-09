@@ -1,0 +1,17 @@
+{
+    "abstract": "The JMLR study <em>Do we need hundreds of classifiers to solve real world classification problems?</em> benchmarks 179 classifiers in 17 families on 121 data sets from the UCI repository and claims that \u00e2\u0080\u009cthe random forest is clearly the best family of classifier\u00e2\u0080\u009d. In this response, we show that the study's results are biased by the lack of a held-out test set and the exclusion of trials with errors. Further, the study's own statistical tests indicate that random forests do not have significantly higher percent accuracy than support vector machines and neural networks, calling into question the conclusion that random forests are the best classifiers.",
+    "authors": [
+        "Michael Wainberg",
+        "Babak Alipanahi",
+        "Brendan J. Frey"
+    ],
+    "id": "15-374",
+    "issue": 110,
+    "pages": [
+        1,
+        5
+    ],
+    "title": "Are Random Forests Truly the Best Classifiers?",
+    "volume": 17,
+    "year": 2016
+}

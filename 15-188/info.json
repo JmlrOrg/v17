@@ -1,0 +1,18 @@
+{
+    "abstract": "Many reinforcement learning (RL) tasks, especially in robotics, consist of multiple sub-tasks that are strongly structured. Such task structures can be exploited by incorporating hierarchical policies that consist of gating networks and sub-policies. However, this concept has only been partially explored for real world settings and complete methods, derived from first principles, are needed. Real world settings are challenging due to large and continuous state-action spaces that are prohibitive for exhaustive sampling methods. We define the problem of learning sub-policies in continuous state action spaces as finding a hierarchical policy that is composed of a high-level gating policy to select the low-level sub-policies for execution by the agent. In order to efficiently share experience with all sub-policies, also called inter-policy learning, we treat these sub-policies as latent variables which allows for distribution of the update information between the sub-policies. We present three different variants of our algorithm, designed to be suitable for a wide variety of real world robot learning tasks and evaluate our algorithms in two real robot learning scenarios as well as several simulations and comparisons.",
+    "authors": [
+        "Christian Daniel",
+        "Gerhard Neumann",
+        "Oliver Kroemer",
+        "Jan Peters"
+    ],
+    "id": "15-188",
+    "issue": 93,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Hierarchical Relative Entropy Policy Search",
+    "volume": 17,
+    "year": 2016
+}

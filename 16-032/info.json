@@ -1,0 +1,15 @@
+{
+    "abstract": " <p>Many data sets can be represented as a sequence of interactions between entities---for example communications between individuals in a social network, protein-protein interactions or DNA-protein interactions in a biological context, or vehicles' journeys between cities. In these contexts, there is often interest in making predictions about future interactions, such as who will message whom.</p> <p>A popular approach to network modeling in a Bayesian context is to assume that the observed interactions can be explained in terms of some latent structure. For example, traffic patterns might be explained by the size and importance of cities, and social network interactions might be explained by the social groups and interests of individuals. Unfortunately, while elucidating this structure can be useful, it often does not directly translate into an effective predictive tool. Further, many existing approaches are not appropriate for sparse networks, a class that includes many interesting real-world situations.</p> <p>In this paper, we develop models for sparse networks that combine structure elucidation with predictive performance. We use a Bayesian nonparametric approach, which allows us to predict interactions with entities outside our training set, and allows the both the latent dimensionality of the model and the number of nodes in the network to grow in expectation as we see more data. We demonstrate that we can capture latent structure while maintaining predictive power, and discuss possible extensions.</p>",
+    "authors": [
+        "Sinead A. Williamson"
+    ],
+    "id": "16-032",
+    "issue": 202,
+    "pages": [
+        1,
+        21
+    ],
+    "title": "Nonparametric Network Models for Link Prediction",
+    "volume": 17,
+    "year": 2016
+}

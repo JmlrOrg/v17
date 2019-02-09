@@ -1,0 +1,16 @@
+{
+    "abstract": "Identification of latent variables that govern a problem and the relationships among them, given measurements in the observed world, are important for causal discovery. This identification can be accomplished by analyzing the constraints imposed by the latents in the measurements. We introduce the concept of <em>pairwise cluster comparison</em> (PCC) to identify causal relationships from clusters of data points and provide a two- stage algorithm called <em>learning PCC</em> (LPCC) that learns a latent variable model (LVM) using PCC. First, LPCC learns exogenous latents and latent colliders, as well as their observed descendants, by using pairwise comparisons between data clusters in the measurement space that may explain latent causes. Since in this first stage LPCC cannot distinguish endogenous latent non-colliders from their exogenous ancestors, a second stage is needed to extract the former, with their observed children, from the latter. If the true graph has no serial connections, LPCC returns the true graph, and if the true graph has a serial connection, LPCC returns a pattern of the true graph. LPCC's most important advantage is that it is not limited to linear or latent-tree models and makes only mild assumptions about the distribution. The paper is divided in two parts: Part I (this paper) provides the necessary preliminaries, theoretical foundation to PCC, and an overview of LPCC; Part II formally introduces the LPCC algorithm and experimentally evaluates its merit in different synthetic and real domains. The code for the LPCC algorithm and data sets used in the experiments reported in Part II are available <a href=\"http://www.ee.bgu.ac.il/~boaz/software\">online</a>.",
+    "authors": [
+        "Nuaman Asbeh",
+        "Boaz Lerner"
+    ],
+    "id": "14-401",
+    "issue": 224,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Learning Latent Variable Models by Pairwise Cluster Comparison: Part I - Theory and Overview",
+    "volume": 17,
+    "year": 2016
+}

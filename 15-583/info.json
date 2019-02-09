@@ -1,0 +1,16 @@
+{
+    "abstract": "Many optimization problems arising in high-dimensional statistics decompose naturally into a sum of several terms, where the individual terms are relatively simple but the composite objective function can only be optimized with iterative algorithms. In this paper, we are interested in optimization problems of the form $F(Kx) + G(x)$, where $K$ is a fixed linear transformation, while $F$ and $G$ are functions that may be nonconvex and/or nondifferentiable. In particular, if either of the terms are nonconvex, existing alternating minimization techniques may fail to converge; other types of existing approaches may instead be unable to handle nondifferentiability. We propose the MOCCA (mirrored convex/concave) algorithm, a primal/dual optimization approach that takes a local convex approximation to each term at every iteration. Inspired by optimization problems arising in computed tomography (CT) imaging, this algorithm can handle a range of nonconvex composite optimization problems, and offers theoretical guarantees for convergence when the overall problem is approximately convex (that is, any concavity in one term is balanced out by convexity in the other term). Empirical results show fast convergence for several structured signal recovery problems.",
+    "authors": [
+        "Rina Foygel Barber",
+        "Emil Y. Sidky"
+    ],
+    "id": "15-583",
+    "issue": 144,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "MOCCA: Mirrored Convex/Concave Optimization for Nonconvex Composite Functions",
+    "volume": 17,
+    "year": 2016
+}

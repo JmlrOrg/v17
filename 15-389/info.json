@@ -1,0 +1,15 @@
+{
+    "abstract": "This work establishes a new upper bound on the number of samples sufficient for PAC learning in the realizable case. The bound matches known lower bounds up to numerical constant factors. This solves a long-standing open problem on the sample complexity of PAC learning. The technique and analysis build on a recent breakthrough by Hans Simon.",
+    "authors": [
+        "Steve Hanneke"
+    ],
+    "id": "15-389",
+    "issue": 38,
+    "pages": [
+        1,
+        15
+    ],
+    "title": "The Optimal Sample Complexity of PAC Learning",
+    "volume": 17,
+    "year": 2016
+}

@@ -1,0 +1,18 @@
+{
+    "abstract": "In this article, a study of the mean-square error (MSE) performance of linear echo-state neural networks is performed, both for training and testing tasks. Considering the realistic setting of noise present at the network nodes, we derive deterministic equivalents for the aforementioned MSE in the limit where the number of input data $T$ and network size $n$ both grow large. Specializing then the network connectivity matrix to specific random settings, we further obtain simple formulas that provide new insights on the performance of such networks.",
+    "authors": [
+        "Romain Couillet",
+        "Gilles Wainrib",
+        "Harry Sevi",
+        "Hafiz Tiomoko Ali"
+    ],
+    "id": "16-076",
+    "issue": 178,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "The Asymptotic Performance of Linear Echo State Neural Networks",
+    "volume": 17,
+    "year": 2016
+}

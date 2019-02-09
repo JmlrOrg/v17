@@ -1,0 +1,20 @@
+{
+    "abstract": " <p>Patients with developmental disorders, such as autism spectrum disorder (ASD), present with symptoms that change with time even if the named diagnosis remains fixed. For example, language impairments may present as delayed speech in a toddler and difficulty reading in a school-age child. Characterizing these trajectories is important for early treatment. However, deriving these trajectories from observational sources is challenging: electronic health records only reflect observations of patients at irregular intervals and only record what factors are clinically relevant at the time of observation. Meanwhile, caretakers discuss daily developments and concerns on social media.</p> <p>In this work, we present a fully unsupervised approach for learning disease trajectories from incomplete medical records and social media posts, including cases in which we have only a single observation of each patient. In particular, we use a dynamic topic model approach which embeds each disease trajectory as a path in $\\mathbb{R}^D$. A Polya- gamma augmentation scheme is used to efficiently perform inference as well as incorporate multiple data sources. We learn disease trajectories from the electronic health records of 13,435 patients with ASD and the forum posts of 13,743 caretakers of children with ASD, deriving interesting clinical insights as well as good predictions.</p>",
+    "authors": [
+        "Huseyin Melih Elibol",
+        "Vincent Nguyen",
+        "Scott Linderman",
+        "Matthew Johnson",
+        "Amna Hashmi",
+        "Finale Doshi-Velez"
+    ],
+    "id": "15-431",
+    "issue": 133,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Cross-Corpora Unsupervised Learning of Trajectories in Autism Spectrum Disorders",
+    "volume": 17,
+    "year": 2016
+}

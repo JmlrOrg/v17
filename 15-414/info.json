@@ -1,0 +1,17 @@
+{
+    "abstract": "Approximate Newton methods are standard optimization tools which aim to maintain the benefits of Newton's method, such as a fast rate of convergence, while alleviating its drawbacks, such as computationally expensive calculation or estimation of the inverse Hessian. In this work we investigate approximate Newton methods for policy optimization in Markov decision processes (MDPs). We first analyse the structure of the Hessian of the total expected reward, which is a standard objective function for MDPs. We show that, like the gradient, the Hessian exhibits useful structure in the context of MDPs and we use this analysis to motivate two Gauss-Newton methods for MDPs. Like the Gauss- Newton method for non-linear least squares, these methods drop certain terms in the Hessian. The approximate Hessians possess desirable properties, such as negative definiteness, and we demonstrate several important performance guarantees including guaranteed ascent directions, invariance to affine transformation of the parameter space and convergence guarantees. We finally provide a unifying perspective of key policy search algorithms, demonstrating that our second Gauss- Newton algorithm is closely related to both the EM-algorithm and natural gradient ascent applied to MDPs, but performs significantly better in practice on a range of challenging domains.",
+    "authors": [
+        "Thomas Furmston",
+        "Guy Lever",
+        "David Barber"
+    ],
+    "id": "15-414",
+    "issue": 227,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Approximate Newton Methods for Policy Search in Markov Decision Processes",
+    "volume": 17,
+    "year": 2016
+}

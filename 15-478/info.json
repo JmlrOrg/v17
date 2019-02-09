@@ -1,0 +1,16 @@
+{
+    "abstract": "The Restricted Boltzmann Machine (RBM) has proved to be a powerful tool in machine learning, both on its own and as the building block for Deep Belief Networks (multi-layer generative graphical models). The RBM and Deep Belief Network have been shown to be universal approximators for probability distributions on binary vectors. In this paper we prove several similar universal approximation results for two variations of the Restricted Boltzmann Machine with time dependence, the Temporal Restricted Boltzmann Machine (TRBM) and the Recurrent Temporal Restricted Boltzmann Machine (RTRBM). We show that the TRBM is a universal approximator for Markov chains and generalize the theorem to sequences with longer time dependence. We then prove that the RTRBM is a universal approximator for stochastic processes with finite time dependence. We conclude with a discussion on efficiency and how the constructions developed could explain some previous experimental results.",
+    "authors": [
+        "Simon Odense",
+        "Roderick Edwards"
+    ],
+    "id": "15-478",
+    "issue": 158,
+    "pages": [
+        1,
+        21
+    ],
+    "title": "Universal Approximation Results for the Temporal Restricted Boltzmann Machine and the Recurrent Temporal Restricted Boltzmann Machine",
+    "volume": 17,
+    "year": 2016
+}

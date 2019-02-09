@@ -1,0 +1,17 @@
+{
+    "abstract": "It is known that for a certain class of single index models (SIMs) $Y = f(X_{p \\times 1}^\\top\\beta_0, \\varepsilon)$, support recovery is impossible when $X \\sim \\mathcal{N}(0, I_{p \\times p})$ and a <i>model complexity adjusted sample size</i> is below a critical threshold. Recently, optimal algorithms based on Sliced Inverse Regression (SIR) were suggested. These algorithms work provably under the assumption that the design $X$ comes from an i.i.d. Gaussian distribution. In the present paper we analyze algorithms based on covariance screening and least squares with $L_1$ penalization (i.e. LASSO) and demonstrate that they can also enjoy optimal (up to a scalar) rescaled sample size in terms of support recovery, albeit under slightly different assumptions on $f$ and $\\varepsilon$ compared to the SIR based algorithms. Furthermore, we show more generally, that LASSO succeeds in recovering the signed support of $\\beta_0$ if $X \\sim \\mathcal{N}(0, \\Sigma)$, and the covariance $\\Sigma$ satisfies the irrepresentable condition. Our work extends existing results on the support recovery of LASSO for the linear model, to a more general class of SIMs. ",
+    "authors": [
+        "Matey Neykov",
+        "Jun S. Liu",
+        "Tianxi Cai"
+    ],
+    "id": "16-006",
+    "issue": 87,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "L1-Regularized Least Squares for Support Recovery of High Dimensional Single Index Models with Gaussian Designs",
+    "volume": 17,
+    "year": 2016
+}

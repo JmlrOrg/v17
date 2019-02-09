@@ -1,0 +1,17 @@
+{
+    "abstract": "We consider the problem of predicting an outcome variable on the basis of a small number of covariates, using an interpretable yet non-additive model. We propose <i>convex regression with interpretable sharp partitions</i> (CRISP) for this task. CRISP partitions the covariate space into blocks in a data- adaptive way, and fits a mean model within each block. Unlike other partitioning methods, CRISP is fit using a non-greedy approach by solving a convex optimization problem, resulting in low- variance fits. We explore the properties of CRISP, and evaluate its performance in a simulation study and on a housing price data set.",
+    "authors": [
+        "Ashley Petersen",
+        "Noah Simon",
+        "Daniela Witten"
+    ],
+    "id": "15-344",
+    "issue": 94,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Convex Regression with Interpretable Sharp Partitions",
+    "volume": 17,
+    "year": 2016
+}

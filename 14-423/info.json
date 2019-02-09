@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper presents a dependent multi-output Gaussian process (GP) for modeling complex dynamical systems. The outputs are dependent in this model, which is largely different from previous GP dynamical systems. We adopt convolved multi-output GPs to model the outputs, which are provided with a flexible multi-output covariance function. We adapt the variational inference method with inducing points for learning the model. Conjugate gradient based optimization is used to solve parameters involved by maximizing the variational lower bound of the marginal likelihood. The proposed model has superiority on modeling dynamical systems under the more reasonable assumption and the fully Bayesian learning framework. Further, it can be flexibly extended to handle regression problems. We evaluate the model on both synthetic and real-world data including motion capture data, traffic flow data and robot inverse dynamics data. Various evaluation methods are taken on the experiments to demonstrate the effectiveness of our model, and encouraging results are observed.",
+    "authors": [
+        "Jing Zhao",
+        "Shiliang Sun"
+    ],
+    "id": "14-423",
+    "issue": 121,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Variational Dependent Multi-output Gaussian Process Dynamical Systems",
+    "volume": 17,
+    "year": 2016
+}

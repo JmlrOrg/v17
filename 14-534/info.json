@@ -1,0 +1,16 @@
+{
+    "abstract": "We develop a flexible framework for low-rank matrix estimation that allows us to transform noise models into regularization schemes via a simple bootstrap algorithm. Effectively, our procedure seeks an autoencoding basis for the observed matrix that is stable with respect to the specified noise model; we call the resulting procedure a <em>stable autoencoder</em>. In the simplest case, with an isotropic noise model, our method is equivalent to a classical singular value shrinkage estimator. For non-isotropic noise models---e.g., Poisson noise---the method does not reduce to singular value shrinkage, and instead yields new estimators that perform well in experiments. Moreover, by iterating our stable autoencoding scheme, we can automatically generate low-rank estimates without specifying the target rank as a tuning parameter.",
+    "authors": [
+        "Julie Josse",
+        "Stefan Wager"
+    ],
+    "id": "14-534",
+    "issue": 124,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Bootstrap-Based Regularization for Low-Rank Matrix Estimation",
+    "volume": 17,
+    "year": 2016
+}

@@ -1,0 +1,15 @@
+{
+    "abstract": "We consider the recovery of a low rank real-valued matrix $M$ given a subset of noisy discrete (or quantized) measurements. Such problems arise in several applications such as collaborative filtering, learning and content analytics, and sensor network localization. We consider constrained maximum likelihood estimation of $M$, under a constraint on the entry- wise infinity-norm of $M$ and an exact rank constraint. We provide upper bounds on the Frobenius norm of matrix estimation error under this model. Previous theoretical investigations have focused on binary (1-bit) quantizers, and been based on convex relaxation of the rank. Compared to the existing binary results, our performance upper bound has faster convergence rate with matrix dimensions when the fraction of revealed observations is fixed. We also propose a globally convergent optimization algorithm based on low rank factorization of $M$ and validate the method on synthetic and real data, with improved performance over previous methods.",
+    "authors": [
+        "Sonia A. Bhaskar"
+    ],
+    "id": "15-273",
+    "issue": 60,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Probabilistic Low-Rank Matrix Completion from Quantized Measurements",
+    "volume": 17,
+    "year": 2016
+}

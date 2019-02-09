@@ -1,0 +1,15 @@
+{
+    "abstract": "We study neural networks whose only non-linear components are multipliers, to test a new training rule in a context where the precise representation of data is paramount. These networks are challenged to discover the rules of matrix multiplication, given many examples. By limiting the number of multipliers, the network is forced to discover the Strassen multiplication rules. This is the mathematical equivalent of finding low rank decompositions of the $n\\times n$ matrix multiplication tensor, $M_n$. We train these networks with the conservative learning rule, which makes minimal changes to the weights so as to give the correct output for each input at the time the input-output pair is received. Conservative learning needs a few thousand examples to find the rank 7 decomposition of $M_2$, and $10^5$ for the rank 23 decomposition of $M_3$ (the lowest known). High precision is critical, especially for $M_3$, to discriminate between true decompositions and \u00e2\u0080\u009cborder approximations\".",
+    "authors": [
+        "Veit Elser"
+    ],
+    "id": "16-074",
+    "issue": 116,
+    "pages": [
+        1,
+        13
+    ],
+    "title": "A Network That Learns Strassen Multiplication",
+    "volume": 17,
+    "year": 2016
+}

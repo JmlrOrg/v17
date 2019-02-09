@@ -1,0 +1,16 @@
+{
+    "abstract": "Gaussian graphical models capture dependence relationships between random variables through the pattern of nonzero elements in the corresponding inverse covariance matrices. To date, there has been a large body of literature on both computational methods and analytical results on the estimation of a <em>single</em> graphical model. However, in many application domains, one has to estimate several <em>related</em> graphical models, a problem that has also received attention in the literature. The available approaches usually assume that all graphical models are <em>globally</em> related. On the other hand, in many settings different relationships between subsets of the node sets exist between different graphical models. We develop methodology that <em>jointly</em> estimates multiple Gaussian graphical models, assuming that there exists prior information on how they are structurally related. For many applications, such information is available from external data sources. The proposed method consists of first applying neighborhood selection with a group lasso penalty to obtain edge sets of the graphs, and a maximum likelihood refit for estimating the nonzero entries in the inverse covariance matrices. We establish consistency of the proposed method for sparse high-dimensional Gaussian graphical models and examine its performance using simulation experiments. Applications to a climate data set and a breast cancer data set are also discussed.",
+    "authors": [
+        "Jing Ma",
+        "George Michailidis"
+    ],
+    "id": "15-656",
+    "issue": 166,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Joint Structural Estimation of Multiple Graphical Models",
+    "volume": 17,
+    "year": 2016
+}

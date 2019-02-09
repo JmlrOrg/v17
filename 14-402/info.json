@@ -1,0 +1,16 @@
+{
+    "abstract": "It is important for causal discovery to identify any latent variables that govern a problem and the relationships among them, given measurements in the observed world. In Part I of this paper, we were interested in learning a discrete latent variable model (LVM) and introduced the concept of <em>pairwise cluster comparison</em> (PCC) to identify causal relationships from clusters of data points and an overview of a two-stage algorithm for <em>learning PCC</em> (LPCC). First, LPCC learns exogenous latent variables and latent colliders, as well as their observed descendants, by using pairwise comparisons between data clusters in the measurement space that may explain latent causes. Second, LPCC identifies endogenous latent non- colliders with their observed children. In Part I, we showed that if the true graph has no serial connections, then LPCC returns the true graph, and if the true graph has a serial connection, then LPCC returns a pattern of the true graph. In this paper (Part II), we formally introduce the LPCC algorithm that implements the PCC concept. In addition, we thoroughly evaluate LPCC using simulated and real-world data sets in comparison to state-of-the-art algorithms. Besides using three real-world data sets, which have already been tested in learning an LVM, we also evaluate the algorithms using data sets that represent two original problems. The first problem is identifying young drivers' involvement in road accidents, and the second is identifying cellular subpopulations of the immune system from mass cytometry. The results of our evaluation show that LPCC improves in accuracy with the sample size, can learn large LVMs, and is accurate in learning compared to state-of- the-art algorithms. The code for the LPCC algorithm and data sets used in the experiments reported here are available <a href=\"http://www.ee.bgu.ac.il/~boaz/software\">online</a>.",
+    "authors": [
+        "Nuaman Asbeh",
+        "Boaz Lerner"
+    ],
+    "id": "14-402",
+    "issue": 233,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Learning Latent Variable Models by Pairwise Cluster Comparison: Part II - Algorithm and Evaluation",
+    "volume": 17,
+    "year": 2016
+}

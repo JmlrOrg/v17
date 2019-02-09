@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper develops an efficient computational method for solving a Gaussian process (GP) regression for large spatial data sets using a collection of suitably defined local GP regressions. The conventional local GP approach first partitions a domain into multiple non-overlapping local regions, and then fits an independent GP regression for each local region using the training data belonging to the region. Two key issues with the local GP are (1) the prediction around the boundary of a local region is not as accurate as the prediction at interior of the local region, and (2) two local GP regressions for two neighboring local regions produce different predictions at the boundary of the two regions, creating undesirable discontinuity in the prediction. We address these issues by constraining the predictions of local GP regressions sharing a common boundary to satisfy the same boundary constraints, which in turn are estimated by the data. The boundary constrained local GP regressions are solved by a finite element method. Our approach shows competitive performance when compared with several state- of-the-art methods using two synthetic data sets and three real data sets.",
+    "authors": [
+        "Chiwoo Park",
+        "Jianhua Z. Huang"
+    ],
+    "id": "15-327",
+    "issue": 174,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Efficient Computation of Gaussian Process Regression for Large Spatial Data Sets by Patching Local Gaussian Processes",
+    "volume": 17,
+    "year": 2016
+}

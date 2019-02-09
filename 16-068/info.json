@@ -1,0 +1,16 @@
+{
+    "abstract": "Many data mining and statistical machine learning algorithms have been developed to select a subset of covariates to associate with a response variable. Spurious discoveries can easily arise in high-dimensional data analysis due to enormous possibilities of such selections. How can we know statistically our discoveries better than those by chance? In this paper, we define a measure of goodness of spurious fit, which shows how good a response variable can be fitted by an optimally selected subset of covariates under the null model, and propose a simple and effective LAMM algorithm to compute it. It coincides with the maximum spurious correlation for linear models and can be regarded as a generalized maximum spurious correlation. We derive the asymptotic distribution of such goodness of spurious fit for generalized linear models and $L_1$ regression. Such an asymptotic distribution depends on the sample size, ambient dimension, the number of variables used in the fit, and the covariance information. It can be consistently estimated by multiplier bootstrapping and used as a benchmark to guard against spurious discoveries. It can also be applied to model selection, which considers only candidate models with goodness of fits better than those by spurious fits. The theory and method are convincingly illustrated by simulated examples and an application to the binary outcomes from German Neuroblastoma Trials.",
+    "authors": [
+        "Jianqing Fan",
+        "Wen-Xin Zhou"
+    ],
+    "id": "16-068",
+    "issue": 203,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Guarding against Spurious Discoveries in High Dimensions",
+    "volume": 17,
+    "year": 2016
+}

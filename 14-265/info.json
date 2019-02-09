@@ -1,0 +1,16 @@
+{
+    "abstract": "We present a systematic study of the bipartite ranking problem, with the aim of explicating its connections to the class- probability estimation problem. Our study focuses on the properties of the statistical risk for bipartite ranking with general losses, which is closely related to a generalised notion of the area under the ROC curve: we establish alternate representations of this risk, relate the Bayes-optimal risk to a class of probability divergences, and characterise the set of Bayes-optimal scorers for the risk. We further study properties of a generalised class of bipartite risks, based on the $p$-norm push of Rudin (2009). Our analysis is based on the rich framework of proper losses, which are the central tool in the study of class-probability estimation. We show how this analytic tool makes transparent the generalisations of several existing results, such as the equivalence of the minimisers for four seemingly disparate risks from bipartite ranking and class- probability estimation. A novel practical implication of our analysis is the design of new families of losses for scenarios where accuracy at the head of ranked list is paramount, with comparable empirical performance to the $p$-norm push.",
+    "authors": [
+        "Aditya Krishna Menon",
+        "Robert C. Williamson"
+    ],
+    "id": "14-265",
+    "issue": 195,
+    "pages": [
+        1,
+        102
+    ],
+    "title": "Bipartite Ranking: a Risk-Theoretic Perspective",
+    "volume": 17,
+    "year": 2016
+}

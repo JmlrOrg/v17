@@ -1,0 +1,19 @@
+{
+    "abstract": "In this paper, we present a new framework for large scale online kernel learning, making kernel methods efficient and scalable for large-scale online learning applications. Unlike the regular budget online kernel learning scheme that usually uses some budget maintenance strategies to bound the number of support vectors, our framework explores a completely different approach of kernel functional approximation techniques to make the subsequent online learning task efficient and scalable. Specifically, we present two different online kernel machine learning algorithms: (i) Fourier Online Gradient Descent (FOGD) algorithm that applies the random Fourier features for approximating kernel functions; and (ii) Nystr\u00c3\u00b6m Online Gradient Descent (NOGD) algorithm that applies the Nystr\u00c3\u00b6m method to approximate large kernel matrices. We explore these two approaches to tackle three online learning tasks: binary classification, multi-class classification, and regression. The encouraging results of our experiments on large-scale datasets validate the effectiveness and efficiency of the proposed algorithms, making them potentially more practical than the family of existing budget online kernel learning approaches.",
+    "authors": [
+        "Jing Lu",
+        "Steven C.H. Hoi",
+        "Jialei Wang",
+        "Peilin Zhao",
+        "Zhi-Yong Liu"
+    ],
+    "id": "14-148",
+    "issue": 47,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Large Scale Online Kernel Learning",
+    "volume": 17,
+    "year": 2016
+}

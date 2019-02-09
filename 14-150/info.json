@@ -1,0 +1,16 @@
+{
+    "abstract": "Stable random variables are motivated by the central limit theorem for densities with (potentially) unbounded variance and can be thought of as natural generalizations of the Gaussian distribution to skewed and heavy-tailed phenomenon. In this paper, we introduce $\\alpha$-stable graphical ($\\alpha$-SG) models, a class of multivariate stable densities that can also be represented as Bayesian networks whose edges encode linear dependencies between random variables. One major hurdle to the extensive use of stable distributions is the lack of a closed- form analytical expression for their densities. This makes penalized maximum-likelihood based learning computationally demanding. We establish theoretically that the <em>Bayesian information criterion</em> (BIC) can asymptotically be reduced to the computationally more tractable <em>minimum dispersion criterion</em> (MDC) and develop <code>StabLe</code>, a structure learning algorithm based on MDC. We use simulated datasets for five benchmark network topologies to empirically demonstrate how  <code>StabLe</code> improves upon ordinary least squares (OLS) regression. We also apply <code>StabLe</code> to microarray gene expression data for lymphoblastoid cells from 727 individuals belonging to eight global population groups. We establish that <code>StabLe</code> improves test set performance relative to OLS via ten-fold cross-validation. Finally, we develop <code>SGEX</code>, a method for quantifying differential expression of genes between different population groups.",
+    "authors": [
+        "Navodit Misra",
+        "Ercan E. Kuruoglu"
+    ],
+    "id": "14-150",
+    "issue": 168,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Stable Graphical Models",
+    "volume": 17,
+    "year": 2016
+}

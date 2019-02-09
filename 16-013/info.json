@@ -1,0 +1,15 @@
+{
+    "abstract": "This paper is concerned with the problem of finding a sparse graph capturing the conditional dependence between the entries of a Gaussian random vector, where the only available information is a sample correlation matrix. A popular approach to address this problem is the graphical lasso technique, which employs a sparsity-promoting regularization term. This paper derives a simple condition under which the computationally- expensive graphical lasso behaves the same as the simple heuristic method of thresholding. This condition depends only on the solution of graphical lasso and makes no direct use of the sample correlation matrix or the regularization coefficient. It is proved that this condition is always satisfied if the solution of graphical lasso is close to its first-order Taylor approximation or equivalently the regularization term is relatively large. This condition is tested on several random problems, and it is shown that graphical lasso and the thresholding method lead to highly similar results in the case where a sparse graph is sought. We also conduct two case studies on brain connectivity networks of twenty subjects based on fMRI data and the topology identification of electrical circuits to support the findings of this work on the similarity of graphical lasso and thresholding.",
+    "authors": [
+        "Somayeh Sojoudi"
+    ],
+    "id": "16-013",
+    "issue": 115,
+    "pages": [
+        1,
+        21
+    ],
+    "title": "Equivalence of Graphical Lasso and Thresholding for Sparse Graphs",
+    "volume": 17,
+    "year": 2016
+}

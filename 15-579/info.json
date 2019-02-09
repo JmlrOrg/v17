@@ -1,0 +1,18 @@
+{
+    "abstract": "Inference and learning of graphical models are both well-studied problems in statistics and machine learning that have found many applications in science and engineering. However, exact inference is intractable in general graphical models, which suggests the problem of seeking the best approximation to a collection of random variables within some tractable family of graphical models. In this paper, we focus on the class of planar Ising models, for which exact inference is tractable using techniques of statistical physics. Based on these techniques and recent methods for planarity testing and planar embedding, we propose a greedy algorithm for learning the best planar Ising model to approximate an arbitrary collection of binary random variables (possibly from sample data). Given the set of all pairwise correlations among variables, we select a planar graph and optimal planar Ising model defined on this graph to best approximate that set of correlations. We demonstrate our method in simulations and for two applications: modeling senate voting records and identifying geo-chemical depth trends from Mars rover data.",
+    "authors": [
+        "Jason K. Johnson",
+        "Diane Oyen",
+        "Michael Chertkov",
+        "Praneeth Netrapalli"
+    ],
+    "id": "15-579",
+    "issue": 215,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Learning Planar Ising Models",
+    "volume": 17,
+    "year": 2016
+}

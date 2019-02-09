@@ -1,0 +1,17 @@
+{
+    "abstract": "In this paper we generalize the framework of the Feasible Descent Method (FDM) to a Randomized (R-FDM) and a Randomized Coordinate-wise Feasible Descent Method (RC-FDM) framework. We show that many machine learning algorithms, including the famous SDCA algorithm for optimizing the SVM dual problem, or the stochastic coordinate descent method for the LASSO problem, fits into the framework of RC-FDM. We prove linear convergence for both R-FDM and RC-FDM under the weak strong convexity assumption. Moreover, we show that the duality gap converges linearly for RC-FDM, which implies that the duality gap also converges linearly for SDCA applied to the SVM dual problem.",
+    "authors": [
+        "Chenxin Ma",
+        "Rachael Tappenden",
+        "Martin  Tak{{\\'a}}\\v{c}"
+    ],
+    "id": "15-541",
+    "issue": 230,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "Linear Convergence of Randomized Feasible Descent Methods Under the Weak Strong Convexity Assumption",
+    "volume": 17,
+    "year": 2016
+}

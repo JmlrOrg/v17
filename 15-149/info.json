@@ -1,0 +1,19 @@
+{
+    "abstract": "Parallel processing frameworks (Dean and Ghemawat, 2004) accelerate jobs by breaking them into tasks that execute in parallel. However, slow running or <em>straggler</em> tasks can run up to 8 times slower than the median task on a production cluster (Ananthanarayanan et al., 2013), leading to delayed job completion and inefficient use of resources. Existing straggler mitigation techniques wait to detect stragglers and then relaunch them, delaying straggler detection and wasting resources. We built Wrangler (Yadwadkar et al., 2014), a system that predicts when stragglers are going to occur and makes scheduling decisions to avoid such situations. To capture node and workload variability, Wrangler built separate models for every node and workload, requiring the time-consuming collection of substantial training data. In this paper, we propose multi- task learning formulations that share information between the various models, allowing us to use less training data and bring training time down from 4 hours to 40 minutes. Unlike naive multi-task learning formulations, our formulations capture the shared structure in our data, improving generalization performance on limited data. Finally, we extend these formulations using group sparsity inducing norms to automatically discover the similarities between tasks and improve interpretability.",
+    "authors": [
+        "Neeraja J. Yadwadkar",
+        "Bharath Hariharan",
+        "Joseph E. Gonzalez",
+        "R",
+        "y Katz"
+    ],
+    "id": "15-149",
+    "issue": 106,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Multi-Task Learning for Straggler Avoiding Predictive Job Scheduling",
+    "volume": 17,
+    "year": 2016
+}

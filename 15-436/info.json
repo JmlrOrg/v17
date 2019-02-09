@@ -1,0 +1,16 @@
+{
+    "abstract": "Complex chronic diseases (e.g., autism, lupus, and Parkinson's) are remarkably heterogeneous across individuals. This heterogeneity makes treatment difficult for caregivers because they cannot accurately predict the way in which the disease will progress in order to guide treatment decisions. Therefore, tools that help to predict the trajectory of these complex chronic diseases can help to improve the quality of health care. To build such tools, we can leverage clinical markers that are collected at baseline when a patient first presents and longitudinally over time during follow-up visits. Because complex chronic diseases are typically systemic, the longitudinal markers often track disease progression in multiple organ systems. In this paper, our goal is to predict a function of time that models the future trajectory of a single target clinical marker tracking a disease process of interest. We want to make these predictions using the histories of many related clinical markers as input. Our proposed solution tackles several key challenges. First, we can easily handle irregularly and sparsely sampled markers, which are standard in clinical data. Second, the number of parameters and the computational complexity of learning our model grows linearly in the number of marker types included in the model. This makes our approach applicable to diseases where many different markers are recorded over time. Finally, our model accounts for latent factors influencing disease expression, whereas standard regression models rely on observed features alone to explain variability. Moreover, our approach can be applied dynamically in continous- time and updates its predictions as soon as any new data is available. We apply our approach to the problem of predicting lung disease trajectories in scleroderma, a complex autoimmune disease. We show that our model improves over state-of-the-art baselines in predictive accuracy and we provide a qualitative analysis of our model's output. Finally, the variability of disease presentation in scleroderma makes clinical trial recruitment challenging. We show that a prognostic tool that integrates multiple types of routinely collected longitudinal data can be used to identify individuals at greatest risk of rapid progression and to target trial recruitment.",
+    "authors": [
+        "Peter Schulam",
+        "Suchi Saria"
+    ],
+    "id": "15-436",
+    "issue": 234,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Integrative Analysis using Coupled Latent Variable Models for Individualizing Prognoses",
+    "volume": 17,
+    "year": 2016
+}

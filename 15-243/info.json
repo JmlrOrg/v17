@@ -1,0 +1,24 @@
+{
+    "abstract": "Real-world machine learning applications may have requirements beyond accuracy, such as fast evaluation times and interpretability. In particular, guaranteed monotonicity of the learned function with respect to some of the inputs can be critical for user confidence. We propose meeting these goals for low-dimensional machine learning problems by learning flexible, monotonic functions using calibrated interpolated look-up tables. We extend the structural risk minimization framework of lattice regression to monotonic functions by adding linear inequality constraints. In addition, we propose jointly learning interpretable calibrations of each feature to normalize continuous features and handle categorical or missing data, at the cost of making the objective non-convex. We address large- scale learning through parallelization, mini-batching, and random sampling of additive regularizer terms. Case studies on real-world problems with up to sixteen features and up to hundreds of millions of training samples demonstrate the proposed monotonic functions can achieve state-of-the-art accuracy in practice while providing greater transparency to users.",
+    "authors": [
+        "Maya Gupta",
+        "Andrew Cotter",
+        "Jan Pfeifer",
+        "Konstantin Voevodski",
+        "Kevin Canini",
+        "Alex",
+        "er Mangylov",
+        "Wojciech Moczydlowski",
+        "Alex",
+        "er van Esbroeck"
+    ],
+    "id": "15-243",
+    "issue": 109,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Monotonic Calibrated Interpolated Look-Up Tables",
+    "volume": 17,
+    "year": 2016
+}

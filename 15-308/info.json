@@ -1,0 +1,19 @@
+{
+    "abstract": "Given a high-dimensional data set, we often wish to find the strongest relationships within it. A common strategy is to evaluate a measure of dependence on every variable pair and retain the highest-scoring pairs for follow-up. This strategy works well if the statistic used (a) has good power to detect non-trivial relationships, and (b) is <em>equitable</em>, meaning that for some measure of noise it assigns similar scores to equally noisy relationships regardless of relationship type (e.g., linear, exponential, periodic). In this paper, we define and theoretically characterize two new statistics that together yield an efficient approach for obtaining both power and equitability. To do this, we first introduce a new population measure of dependence and show three equivalent ways that it can be viewed, including as a canonical <q>smoothing</q> of mutual information. We then introduce an efficiently computable consistent estimator of our population measure of dependence, and we empirically establish its equitability on a large class of noisy functional relationships. This new statistic has better bias/variance properties and better runtime complexity than a previous heuristic approach. Next, we derive a second, related statistic whose computation is a trivial side-product of our algorithm and whose goal is powerful independence testing rather than equitability. We prove that this statistic yields a consistent independence test and show in simulations that the test has good power against independence. Taken together, our results suggest that these two statistics are a valuable pair of tools for exploratory data analysis.",
+    "authors": [
+        "Yakir A. Reshef",
+        "David N. Reshef",
+        "Hilary K. Finucane",
+        "Pardis C. Sabeti",
+        "Michael Mitzenmacher"
+    ],
+    "id": "15-308",
+    "issue": 212,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Measuring Dependence Powerfully and Equitably",
+    "volume": 17,
+    "year": 2016
+}

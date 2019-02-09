@@ -1,0 +1,17 @@
+{
+    "abstract": "While machine learning has proven to be a powerful data-driven solution to many real-life problems,  its use in sensitive domains has been limited due to privacy concerns.  A popular approach known as <em>differential privacy</em> offers provable privacy guarantees, but it is  often observed in practice that it could substantially hamper learning accuracy. In this paper we study the learnability (whether a problem can be learned by any algorithm)  under Vapnik's general learning setting with differential privacy constraint, and reveal some  intricate relationships between privacy, stability and learnability. In particular, we show that a problem is privately learnable <em>if an only if</em> there is a private algorithm that asymptotically minimizes the empirical risk (AERM).  In contrast, for non- private learning AERM alone is not sufficient for learnability. This result suggests that when searching for private learning algorithms, we can restrict the search to algorithms  that are AERM. In light of this, we propose a conceptual procedure that always finds a universally consistent algorithm  whenever the problem is learnable under privacy constraint.  We also propose a generic and practical algorithm and show that under very general conditions it privately learns a wide  class of learning problems.  Lastly, we extend some of the results to the more practical $(\\epsilon,\\delta)$-differential privacy and establish the existence of a phase-transition on the class of problems that are approximately privately learnable with respect  to how small $\\delta$ needs to be.",
+    "authors": [
+        "Yu-Xiang Wang",
+        "Jing Lei",
+        "Stephen E. Fienberg"
+    ],
+    "id": "15-313",
+    "issue": 183,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Learning with Differential Privacy: Stability, Learnability and the Sufficiency and Necessity of ERM Principle",
+    "volume": 17,
+    "year": 2016
+}

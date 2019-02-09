@@ -1,0 +1,19 @@
+{
+    "abstract": " <em>Systematic reviews</em> underpin Evidence Based Medicine (EBM) by addressing precise clinical questions via comprehensive synthesis of all relevant published evidence. Authors of systematic reviews typically define a Population/Problem, Intervention, Comparator, and Outcome (a <em>PICO</em> criteria) of interest, and then retrieve, appraise and synthesize results from all reports of clinical trials that meet these criteria. Identifying PICO elements in the full-texts of trial reports is thus a critical yet time-consuming step in the systematic review process. We seek to expedite evidence synthesis by developing machine learning models to automatically extract sentences from articles relevant to PICO elements. Collecting a large corpus of training data for this task would be prohibitively expensive. Therefore, we derive <em>distant supervision</em> (DS) with which to train models using previously conducted reviews. DS entails heuristically deriving 'soft' labels from an available structured resource. However, we have access only to unstructured, free-text summaries of PICO elements for corresponding articles; we must derive from these the desired sentence-level annotations. To this end, we propose a novel method -- <em>supervised distant supervision</em> (SDS) -- that uses a small amount of direct supervision to better exploit a large corpus of distantly labeled instances by <em>learning</em> to pseudo-annotate articles using the available DS. We show that this approach tends to outperform existing methods with respect to automated PICO extraction.",
+    "authors": [
+        "Byron C. Wallace",
+        "Jo{{\\\"e}}l Kuiper",
+        "Aakash Sharma",
+        "Mingxi (Brian) Zhu",
+        "Iain J. Marshall"
+    ],
+    "id": "15-404",
+    "issue": 132,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Extracting PICO Sentences from Clinical Trial Reports using Supervised Distant Supervision",
+    "volume": 17,
+    "year": 2016
+}

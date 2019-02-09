@@ -1,0 +1,16 @@
+{
+    "abstract": "CVXPY is a domain-specific language for convex optimization embedded in Python. It allows the user to express convex optimization problems in a natural syntax that follows the math, rather than in the restrictive standard form required by solvers. CVXPY makes it easy to combine convex optimization with high-level features of Python such as parallelism and object- oriented design. CVXPY is available at <a href=\"http://www.cvxpy.org/\">www.cvxpy.org</a> under the GPL license, along with documentation and examples.",
+    "authors": [
+        "Steven Diamond",
+        "Stephen Boyd"
+    ],
+    "id": "15-408",
+    "issue": 83,
+    "pages": [
+        1,
+        5
+    ],
+    "title": "CVXPY: A Python-Embedded Modeling Language for Convex Optimization",
+    "volume": 17,
+    "year": 2016
+}

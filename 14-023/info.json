@@ -1,0 +1,16 @@
+{
+    "abstract": "One of the limiting factors of using support vector machines (SVMs) in large scale applications are their super-linear computational requirements in terms of the number of training samples. To address this issue, several approaches that train SVMs on many small chunks separately have been proposed in the literature. With the exception of random chunks, which is also known as divide-and-conquer kernel ridge regression, however, these approaches have only been empirically investigated. In this work we investigate a spatially oriented method to generate the chunks. For the resulting localized SVM that uses Gaussian kernels and the least squares loss we derive an oracle inequality, which in turn is used to deduce learning rates that are essentially minimax optimal under some standard smoothness assumptions on the regression function. In addition, we derive local learning rates that are based on the local smoothness of the regression function. We further introduce a data-dependent parameter selection method for our local SVM approach and show that this method achieves the same almost optimal learning rates. Finally, we present a few larger scale experiments for our localized SVM showing that it achieves essentially the same test error as a global SVM for a fraction of the computational requirements. In addition, it turns out that the computational requirements for the local SVMs are similar to those of a vanilla random chunk approach, while the achieved test errors are significantly better.",
+    "authors": [
+        "Mona Meister",
+        "Ingo Steinwart"
+    ],
+    "id": "14-023",
+    "issue": 194,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Optimal Learning Rates for Localized SVMs",
+    "volume": 17,
+    "year": 2016
+}

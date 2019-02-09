@@ -1,0 +1,17 @@
+{
+    "abstract": "Comparing with the standard $L_2$-norm support vector machine (SVM), the $L_1$-norm SVM enjoys the nice property of simultaneously preforming classification and feature selection. In this paper, we investigate the statistical performance of $L_1$-norm SVM in ultra-high dimension, where the number of features $p$ grows at an exponential rate of the sample size $n$. Different from existing theory for SVM which has been mainly focused on the generalization error rates and empirical risk, we study the asymptotic behavior of the coefficients of $L_1$-norm SVM. Our analysis reveals that the $L_1$-norm SVM coefficients achieve near oracle rate, that is, with high probability, the $L_2$ error bound of the estimated $L_1$-norm SVM coefficients is of order $O_p(\\sqrt{q\\log p/n})$, where $q$ is the number of features with nonzero coefficients. Furthermore, we show that if the $L_1$-norm SVM is used as an initial value for a recently proposed algorithm for solving non- convex penalized SVM (Zhang et al., 2016b), then in two iterative steps it is guaranteed to produce an estimator that possesses the oracle property in ultra-high dimension, which in particular implies that with probability approaching one the zero coefficients are estimated as exactly zero. Simulation studies demonstrate the fine performance of $L_1$-norm SVM as a sparse classifier and its effectiveness to be utilized to solve non-convex penalized SVM problems in high dimension.",
+    "authors": [
+        "Bo Peng",
+        "Lan Wang",
+        "Yichao Wu"
+    ],
+    "id": "15-654",
+    "issue": 236,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "An Error Bound for L1-norm Support Vector Machine Coefficients in Ultra-high Dimension",
+    "volume": 17,
+    "year": 2016
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "We propose a Gibbs sampler for structure learning in directed acyclic graph (DAG) models. The standard Markov chain Monte Carlo algorithms used for learning DAGs are random-walk Metropolis-Hastings samplers. These samplers are guaranteed to converge asymptotically but often mix slowly when exploring the large graph spaces that arise in structure learning. In each step, the sampler we propose draws entire sets of parents for multiple nodes from the appropriate conditional distribution. This provides an efficient way to make large moves in graph space, permitting faster mixing whilst retaining asymptotic guarantees of convergence. The conditional distribution is related to variable selection with candidate parents playing the role of covariates or inputs. We empirically examine the performance of the sampler using several simulated and real data examples. The proposed method gives robust results in diverse settings, outperforming several existing Bayesian and frequentist methods. In addition, our empirical results shed some light on the relative merits of Bayesian and constraint- based methods for structure learning.",
+    "authors": [
+        "Robert J. B. Goudie",
+        "Sach Mukherjee"
+    ],
+    "id": "14-486",
+    "issue": 30,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "A Gibbs Sampler for Learning DAGs",
+    "volume": 17,
+    "year": 2016
+}

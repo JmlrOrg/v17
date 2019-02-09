@@ -1,0 +1,21 @@
+{
+    "abstract": "In the past few years, differential privacy has become a standard concept in the area of privacy. One of the most important problems in this field is to answer queries while preserving differential privacy. In spite of extensive studies, most existing work on differentially private query answering assumes the data are <i>discrete</i> (i.e., in $\\{0,1\\}^d$) and focuses on queries induced by \\emph{Boolean} functions. In real applications however, <i>continuous</i> data are at least as common as binary data. Thus, in this work we explore a less studied topic, namely, differential privately query answering for continuous data with continuous function. As a first step towards the continuous case, we study a natural class of linear queries on continuous data which we refer to as <i>smooth</i> queries. A linear query is said to be $K$-smooth if it is specified by a function defined on $[-1,1]^d$ whose partial derivatives up to order $K$ are all bounded. We develop two $\\epsilon$-differentially private mechanisms which are able to answer <i>all</i> smooth queries. The first mechanism outputs a summary of the database and can then give answers to the queries. The second mechanism is an improvement of the first one and it outputs a synthetic database. The two mechanisms both achieve an accuracy of $O (n^{-\\frac{K}{2d+K}}/\\epsilon )$. Here we assume that the dimension $d$ is a constant. It turns out that even in this parameter setting (which is almost trivial in the discrete case), using existing discrete mechanisms to answer the smooth queries is difficult and requires more noise. Our mechanisms are based on $L_{\\infty}$-approximation of (transformed) smooth functions by low-degree even trigonometric polynomials with uniformly bounded coefficients. We also develop practically efficient variants of the mechanisms with promising experimental results.",
+    "authors": [
+        "Ziteng Wang",
+        "Chi Jin",
+        "Kai Fan",
+        "Jiaqi Zhang",
+        "Junliang Huang",
+        "Yiqiao Zhong",
+        "Liwei Wang"
+    ],
+    "id": "14-388",
+    "issue": 51,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Differentially Private Data Releasing for Smooth Queries",
+    "volume": 17,
+    "year": 2016
+}

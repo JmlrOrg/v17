@@ -1,0 +1,17 @@
+{
+    "abstract": "We provide a hierarchical Bayesian model for estimating the effects of transient drug exposures on a collection of health outcomes, where the effects of all drugs on all outcomes are estimated simultaneously. The method possesses properties that allow it to handle important challenges of dealing with large- scale longitudinal observational databases. In particular, this model is a generalization of the self-controlled case series (SCCS) method, meaning that certain patient specific baseline rates never need to be estimated. Further, this model is formulated with layers of latent factors, which substantially reduces the number of parameters and helps with interpretability by illuminating latent classes of drugs and outcomes. We believe our work is the first to consider multivariate SCCS (in the sense of multiple outcomes) and is the first to couple latent factor analysis with SCCS. We demonstrate the approach by estimating the effects of various time-sensitive insulin treatments for diabetes.",
+    "authors": [
+        "Ramin Moghaddass",
+        "Cynthia Rudin",
+        "David Madigan"
+    ],
+    "id": "15-405",
+    "issue": 185,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "The Factorized Self-Controlled Case Series Method: An Approach for Estimating the Effects of Many Drugs on Many Outcomes",
+    "volume": 17,
+    "year": 2016
+}

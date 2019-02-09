@@ -1,0 +1,15 @@
+{
+    "abstract": "We formulate a new variant of the problem of planning in an unknown environment, for which we can provide algorithms with reasonable theoretical guarantees in spite of large state spaces and time horizons, partial observability, and complex dynamics. In this variant, an agent is given a collection of example traces produced by a reference policy, which may, for example, capture the agent's past behavior. The agent is (only) asked to find policies that are supported by regularities in the dynamics that are observable on these example traces. We describe an efficient algorithm that uses such <q>common sense</q> knowledge reflected in the example traces to construct decision tree policies for goal-oriented factored POMDPs. More precisely, our algorithm (provably) succeeds at finding a policy for a given input goal when (1) there is a CNF that is almost always observed satisfied on the traces of the POMDP, capturing a sufficient <em>approximation</em> of its dynamics and (2) for a decision tree policy of bounded complexity, there exist small- space resolution proofs that the goal is achieved on each branch using the aforementioned CNF capturing the <q>common sense rules.</q> Such a CNF always exists for noisy STRIPS domains, for example. Our results thus essentially establish that the possession of a suitable <em>exploration policy</em> for collecting the necessary examples is the fundamental obstacle to learning to act in such environments.",
+    "authors": [
+        "Brendan Juba"
+    ],
+    "id": "13-584",
+    "issue": 96,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Integrated Common Sense Learning and Planning in POMDPs",
+    "volume": 17,
+    "year": 2016
+}

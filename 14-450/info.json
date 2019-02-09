@@ -1,0 +1,15 @@
+{
+    "abstract": "In this paper we analyze the relationship between faithfulness and the more recent condition of algorithmic Independence of Conditionals (IC) with respect to the Conditional Independencies (CIs) they allow. Both conditions have been extensively used for causal inference by refuting factorizations for which the condition does not hold. Violation of faithfulness happens when there are CIs that do not follow from the Markov condition. For those CIs, non-trivial constraints among some parameters of the Conditional Probability Distributions (CPDs) must hold. When such a constraint is defined over parameters of different CPDs, we prove that IC is also violated unless the parameters have a simple description. To understand which non-Markovian CIs are permitted we define a new condition closely related to IC: the Independence from Product Constraints (IPC). The condition reflects that CIs might be the result of specific parameterizations of individual CPDs but not from constraints on parameters of different CPDs. In that sense it is more restrictive than IC: parameters may have a simple description. On the other hand, IC also excludes other forms of algorithmic dependencies between CPDs. Finally, we prove that on top of the CIs permitted by the Markov condition (faithfulness), IPC allows non-minimality, deterministic relations and what we called proportional CPDs. These are the only cases in which a CI follows from a specific parameterization of a single CPD.",
+    "authors": [
+        "Jan Lemeire"
+    ],
+    "id": "14-450",
+    "issue": 151,
+    "pages": [
+        1,
+        20
+    ],
+    "title": "Conditional Independencies under the Algorithmic Independence of Conditionals",
+    "volume": 17,
+    "year": 2016
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "We develop a novel framework to study smooth and strongly convex optimization algorithms. Focusing on quadratic functions we are able to examine optimization algorithms as a recursive application of linear operators. This, in turn, reveals a powerful connection between a class of optimization algorithms and the analytic theory of polynomials whereby new lower and upper bounds are derived. Whereas existing lower bounds for this setting are only valid when the dimensionality scales with the number of iterations, our lower bound holds in the natural regime where the dimensionality is fixed. Lastly, expressing it as an optimal solution for the corresponding optimization problem over polynomials, as formulated by our framework, we present a novel systematic derivation of Nesterov's well-known Accelerated Gradient Descent method. This rather natural interpretation of AGD contrasts with earlier ones which lacked a simple, yet solid, motivation.",
+    "authors": [
+        "Yossi Arjevani",
+        "Shai Shalev-Shwartz",
+        "Ohad Shamir"
+    ],
+    "id": "15-106",
+    "issue": 126,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "On Lower and Upper Bounds in Smooth and Strongly Convex Optimization",
+    "volume": 17,
+    "year": 2016
+}

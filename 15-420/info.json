@@ -1,0 +1,17 @@
+{
+    "abstract": "This paper presents an information theory-driven matching methodology for making causal inference from observational data. The paper adopts a \u00e2\u0080\u009cpotential outcomes framework\u00e2\u0080\u009d view on evaluating the strength of cause-effect relationships: the population-wide average effects of binary treatments are estimated by comparing two groups of units -- the treated and untreated (control). To reduce the bias in such treatment effect estimation, one has to compose a control group in such a way that across the compared groups of units, treatment is independent of the units' covariates. This requirement gives rise to a subset selection / matching problem. This paper presents the models and algorithms that solve the matching problem by minimizing the mutual information (MI) between the covariates and the treatment variable. Such a formulation becomes tractable thanks to the derived optimality conditions that tackle the non-linearity of the sample-based MI function. Computational experiments with mixed integer-programming formulations and four matching algorithms demonstrate the utility of MI based matching for causal inference studies. The algorithmic developments culminate in a matching heuristic that allows for balancing the compared groups in polynomial (close to linear) time, thus allowing for treatment effect estimation with large data sets.",
+    "authors": [
+        "Lei Sun",
+        "Alex",
+        "er G. Nikolaev"
+    ],
+    "id": "15-420",
+    "issue": 199,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Mutual Information Based Matching for Causal Inference with Observational Data",
+    "volume": 17,
+    "year": 2016
+}

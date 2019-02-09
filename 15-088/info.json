@@ -1,0 +1,15 @@
+{
+    "abstract": "Government surveys of business establishments receive a large volume of submissions where a small subset contain errors. Analysts need a fast-computing algorithm to flag this subset due to a short time window between collection and reporting. We offer a computationally-scalable optimization method based on non-parametric mixtures of hierarchical Dirichlet processes that allows discovery of multiple industry-indexed local partitions linked to a set of global cluster centers. Outliers are nominated as those clusters containing few observations. We extend an existing approach with a new <q>merge</q> step that reduces sensitivity to hyperparameter settings. Survey data are typically acquired under an informative sampling design where the probability of inclusion depends on the surveyed response such that the distribution for the observed sample is different from the population. We extend the derivation of a penalized objective function to use a pseudo-posterior that incorporates sampling weights that <q>undo</q> the informative design. We provide a simulation study to demonstrate that our approach produces unbiased estimation for the outlying cluster under informative sampling. The method is applied for outlier nomination for the Current Employment Statistics survey conducted by the Bureau of Labor Statistics.",
+    "authors": [
+        "Terrance D. Savitsky"
+    ],
+    "id": "15-088",
+    "issue": 226,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Scalable Approximate Bayesian Inference for Outlier Detection under Informative Sampling",
+    "volume": 17,
+    "year": 2016
+}

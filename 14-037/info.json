@@ -1,0 +1,16 @@
+{
+    "abstract": " <p>Q-learning (QL) is a popular reinforcement learning algorithm that is guaranteed to converge to optimal policies in Markov decision processes. However, QL exhibits an artifact: in expectation, the effective rate of updating the value of an action depends on the probability of choosing that action. In other words, there is a tight coupling between the learning dynamics and underlying execution policy. This coupling can cause performance degradation in noisy <i>non-stationary</i> environments.</p> <p>Here, we introduce Repeated Update Q-learning (RUQL), a learning algorithm that resolves the undesirable artifact of Q-learning while maintaining simplicity. We analyze the similarities and differences between RUQL, QL, and the closest state-of-the-art algorithms theoretically. Our analysis shows that RUQL maintains the convergence guarantee of QL in stationary environments, while relaxing the coupling between the execution policy and the learning dynamics. Experimental results confirm the theoretical insights and show how RUQL outperforms both QL and the closest state-of-the-art algorithms in noisy non-stationary environments.</p>",
+    "authors": [
+        "Sherief Abdallah",
+        "Michael Kaisers"
+    ],
+    "id": "14-037",
+    "issue": 46,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Addressing Environment Non-Stationarity by Repeating Q-learning Updates",
+    "volume": 17,
+    "year": 2016
+}

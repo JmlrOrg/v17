@@ -1,0 +1,17 @@
+{
+    "abstract": " <p>We investigate the online version of Principle Component Analysis (PCA), where in each trial $t$ the learning algorithm chooses a $k$-dimensional subspace, and upon receiving the next instance vector $\\x_t$, suffers the <quote>compression loss</quote>, which is the squared Euclidean distance between this instance and its projection into the chosen subspace. When viewed in the right parameterization, this compression loss is linear, i.e. it can be rewritten as $\\text{tr}(\\mathbf{W}_t\\x_t\\x_t^\\top)$, where $\\mathbf{W}_t$ is the parameter of the algorithm and the outer product $\\x_t\\x_t^\\top$ (with $\\|\\x_t\\|\\le 1$) is the instance matrix. In this paper generalize PCA to arbitrary positive definite instance matrices $\\mathbf{X}_t$ with the linear loss $\\text{tr}(\\mathbf{W}_t\\X_t)$.</p> <p>We evaluate online algorithms in terms of their worst-case regret, which is a bound on the additional total loss of the online algorithm on all instances matrices over the compression loss of the best $k$-dimensional subspace (chosen in hindsight). We focus on two popular online algorithms for generalized PCA: the Gradient Descent (GD) and Matrix Exponentiated Gradient (MEG) algorithms. We show that if the regret is expressed as a function of the number of trials, then both algorithms are optimal to within a constant factor on worst-case sequences of positive definite instances matrices with trace norm at most one (which subsumes the original PCA problem with outer products). This is surprising because MEG is believed be suboptimal in this case. We also show that when considering regret bounds as a function of a loss budget, then MEG remains optimal and strictly outperforms GD when the instance matrices are trace norm bounded.</p> <p>Next, we consider online PCA when the adversary is allowed to present the algorithm with positive semidefinite instance matrices whose largest eigenvalue is bounded (rather than their trace which is the sum of their eigenvalues). Again we can show that MEG is optimal and strictly better than GD in this setting.</p>",
+    "authors": [
+        "Jiazhong Nie",
+        "Wojciech Kotlowski",
+        "Manfred K. Warmuth"
+    ],
+    "id": "15-320",
+    "issue": 173,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Online PCA with Optimal Regret",
+    "volume": 17,
+    "year": 2016
+}

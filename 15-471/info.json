@@ -1,0 +1,20 @@
+{
+    "abstract": "Matrix factorization (MF) plays a key role in many applications such as recommender systems and computer vision, but MF may take long running time for handling large matrices commonly seen in the big data era. Many parallel techniques have been proposed to reduce the running time, but few parallel MF packages are available. Therefore, we present an open source library, LIBMF, based on recent advances of parallel MF for shared-memory systems. LIBMF includes easy-to-use command-line tools, interfaces to C/C++ languages, and comprehensive documentation. Our experiments demonstrate that LIBMF outperforms state of the art packages. LIBMF is BSD-licensed, so users can freely use, modify, and redistribute the code.",
+    "authors": [
+        "Wei-Sheng Chin",
+        "Bo-Wen Yuan",
+        "Meng-Yuan Yang",
+        "Yong Zhuang",
+        "Yu-Chin Juan",
+        "Chih-Jen Lin"
+    ],
+    "id": "15-471",
+    "issue": 86,
+    "pages": [
+        1,
+        5
+    ],
+    "title": "LIBMF: A Library for Parallel Matrix Factorization in Shared-memory Systems",
+    "volume": 17,
+    "year": 2016
+}

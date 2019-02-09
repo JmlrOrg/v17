@@ -1,0 +1,16 @@
+{
+    "abstract": "We introduce a framework for designing multi-scale, adaptive, shift-invariant frames and bi-frames for representing signals. The new framework, called AdaFrame, improves over dictionary learning-based techniques in terms of computational efficiency at inference time. It improves classical multi-scale basis such as wavelet frames in terms of coding efficiency. It provides an attractive alternative to dictionary learning-based techniques for low level signal processing tasks, such as compression and denoising, as well as high level tasks, such as feature extraction for object recognition. Connections with deep convolutional networks are also discussed. In particular, the proposed framework reveals a drawback in the commonly used approach for visualizing the activations of the intermediate layers in convolutional networks, and suggests a natural alternative.",
+    "authors": [
+        "Cheng Tai",
+        "Weinan E"
+    ],
+    "id": "15-072",
+    "issue": 140,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Multiscale Adaptive Representation of Signals: I. The Basic Framework",
+    "volume": 17,
+    "year": 2016
+}

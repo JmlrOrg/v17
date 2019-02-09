@@ -1,0 +1,18 @@
+{
+    "abstract": "We focus on the distribution regression problem: regressing to vector-valued outputs from probability measures. Many important machine learning and statistical tasks fit into this framework, including multi-instance learning and point estimation problems without analytical solution (such as hyperparameter or entropy estimation). Despite the large number of available heuristics in the literature, the inherent two-stage sampled nature of the problem makes the theoretical analysis quite challenging, since in practice only samples from sampled distributions are observable, and the estimates have to rely on similarities computed between sets of points. To the best of our knowledge, the only existing technique with consistency guarantees for distribution regression requires kernel density estimation as an intermediate step (which often performs poorly in practice), and the domain of the distributions to be compact Euclidean. In this paper, we study a simple, analytically computable, ridge regression-based alternative to distribution regression, where we embed the distributions to a reproducing kernel Hilbert space, and learn the regressor from the embeddings to the outputs. Our main contribution is to prove that this scheme is consistent in the two-stage sampled setup under mild conditions (on separable topological domains enriched with kernels): we present an exact computational-statistical efficiency trade-off analysis showing that our estimator is able to match the  <em>one-stage</em> sampled minimax optimal rate (Caponnetto and De Vito, 2007; Steinwart et al., 2009). This result answers a $17 $-year-old open question, establishing the consistency of the classical set kernel (Haussler, 1999; G\u00c3\u00a4rtner et al., 2002) in regression. We also cover consistency for more recent kernels on distributions, including those due to Christmann and Steinwart (2010).",
+    "authors": [
+        "Zolt{{\\'a}}n Szab{{\\'o}}",
+        "Bharath K. Sriperumbudur",
+        "Barnab{{\\'a}}s P{{\\'o}}czos",
+        "Arthur Gretton"
+    ],
+    "id": "14-510",
+    "issue": 152,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Learning Theory for Distribution Regression",
+    "volume": 17,
+    "year": 2016
+}

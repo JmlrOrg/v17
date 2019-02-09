@@ -1,0 +1,17 @@
+{
+    "abstract": "This paper surveys the state of the art on multimodal gesture recognition and introduces the JMLR special topic on gesture recognition 2011-2015. We began right at the start of the \\kinect revolution when inexpensive infrared cameras providing image depth recordings became available. We published papers using this technology and other more conventional methods, including regular video cameras, to record data, thus providing a good overview of uses of machine learning and computer vision using multimodal data in this area of application. Notably, we organized a series of challenges and made available several datasets we recorded for that purpose, including tens of thousands of videos, which are available to conduct further research. We also overview recent state of the art works on gesture recognition based on a proposed taxonomy for gesture recognition, discussing challenges and future lines of research.",
+    "authors": [
+        "Sergio Escalera",
+        "Vassilis Athitsos",
+        "Isabelle Guyon"
+    ],
+    "id": "14-468",
+    "issue": 72,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Challenges in multimodal gesture recognition",
+    "volume": 17,
+    "year": 2016
+}

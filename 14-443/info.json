@@ -1,0 +1,18 @@
+{
+    "abstract": "The goal of subspace learning is to find a $k$-dimensional subspace of $\\mathbb{R}^d$, such that the expected squared distance between instance vectors and the subspace is as small as possible. In this paper we study subspace learning in a <i>partial information</i> setting, in which the learner can only observe $r \\le d$ attributes from each instance vector. We propose several efficient algorithms for this task, and analyze their sample complexity.",
+    "authors": [
+        "Alon Gonen",
+        "Dan Rosenbaum",
+        "Yonina C. Eldar",
+        "Shai Shalev-Shwartz"
+    ],
+    "id": "14-443",
+    "issue": 52,
+    "pages": [
+        1,
+        21
+    ],
+    "title": "Subspace Learning with Partial Information",
+    "volume": 17,
+    "year": 2016
+}

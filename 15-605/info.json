@@ -1,0 +1,17 @@
+{
+    "abstract": "We introduce a novel scheme for choosing the regularization parameter in high-dimensional linear  regression with Lasso. This scheme, inspired by Lepski\u00e2\u0080\u0099s method for bandwidth selection in non-parametric  regression, is equipped with both optimal finite-sample guarantees and a fast algorithm. In particular, for any design matrix such that the Lasso has low sup-norm error under an \u00e2\u0080\u009coracle choice\u00e2\u0080\u009d of the  regularization parameter, we show that our method matches the oracle performance up to a small constant factor,  and show that it can be implemented by performing simple tests along a single Lasso path. By applying the  Lasso to simulated and real data, we find that our novel scheme can be faster and more accurate than  standard schemes such as Cross-Validation.",
+    "authors": [
+        "Michael Chichignoud",
+        "Johannes Lederer",
+        "Martin J. Wainwright"
+    ],
+    "id": "15-605",
+    "issue": 231,
+    "pages": [
+        1,
+        20
+    ],
+    "title": "A Practical Scheme and Fast Algorithm to Tune the Lasso With Optimality Guarantees",
+    "volume": 17,
+    "year": 2016
+}

@@ -1,0 +1,18 @@
+{
+    "abstract": "For the prediction with expert advice setting, we consider methods to construct algorithms that have low adaptive regret. The adaptive regret of an algorithm on a time interval $[t_1,t_2]$ is the loss of the algorithm minus the loss of the best expert over that interval. Adaptive regret measures how well the algorithm approximates the best expert locally, and so is different from, although closely related to, both the classical regret, measured over an initial time interval $[1,t]$, and the tracking regret, where the algorithm is compared to a good sequence of experts over $[1,t]$. We investigate two existing intuitive methods for deriving algorithms with low adaptive regret, one based on specialist experts and the other based on restarts. Quite surprisingly, we show that both methods lead to the same algorithm, namely Fixed Share, which is known for its tracking regret. We provide a thorough analysis of the adaptive regret of Fixed Share. We obtain the exact worst-case adaptive regret for Fixed Share, from which the classical tracking bounds follow. We prove that Fixed Share is optimal for adaptive regret: the worst-case adaptive regret of any algorithm is at least that of an instance of Fixed Share.",
+    "authors": [
+        "Dmitry Adamskiy",
+        "Wouter M. Koolen",
+        "Alexey Chernov",
+        "Vladimir Vovk"
+    ],
+    "id": "13-533",
+    "issue": 23,
+    "pages": [
+        1,
+        21
+    ],
+    "title": "A Closer Look at Adaptive Regret",
+    "volume": 17,
+    "year": 2016
+}

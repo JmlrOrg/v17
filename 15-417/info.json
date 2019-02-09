@@ -1,0 +1,16 @@
+{
+    "abstract": "We introduce the <i>Lenient Multiagent Reinforcement Learning 2</i> (LMRL2) algorithm for independent-learner stochastic cooperative games. LMRL2 is designed to overcome a pathology called <i>relative overgeneralization</i>, and to do so while still performing well in games with stochastic transitions, stochastic rewards, and miscoordination. We discuss the existing literature, then compare LMRL2 against other algorithms drawn from the literature which can be used for games of this kind: traditional (\u00e2\u0080\u009cDistributed\u00e2\u0080\u009d) Q-learning, Hysteretic Q-learning, WoLF-PHC, SOoN, and (for repeated games only) FMQ. The results show that LMRL2 is very effective in both of our measures (complete and correct policies), and is found in the top rank more often than any other technique. LMRL2 is also easy to tune: though it has many available parameters, almost all of them stay at default settings. Generally the algorithm is optimally tuned with a single parameter, if any. We then examine and discuss a number of side-issues and options for LMRL2.",
+    "authors": [
+        "Ermo Wei",
+        "Sean Luke"
+    ],
+    "id": "15-417",
+    "issue": 84,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Lenient Learning in Independent-Learner Stochastic Cooperative Games",
+    "volume": 17,
+    "year": 2016
+}

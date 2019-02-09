@@ -1,0 +1,20 @@
+{
+    "abstract": "Focal cortical dysplasia (FCD) is the most common cause of pediatric epilepsy and the third most common cause in adults with treatment-resistant epilepsy. Surgical resection of the lesion is the most effective treatment to stop seizures. Technical advances in MRI have revolutionized the diagnosis of FCD, leading to high success rates for resective surgery. However, 45% of histologically confirmed FCD patients have normal MRIs (<em>MRI-negative</em>). Without a visible lesion, the success rate of surgery drops from 66% to 29%. In this work, we cast the problem of detecting potential FCD lesions using MRI scans of MRI-negative patients in an image segmentation framework based on hierarchical conditional random fields (HCRF). We use surface based morphometry to model the cortical surface as a two-dimensional surface which is then segmented at multiple scales to extract superpixels of different sizes. Each superpixel is assigned an outlier score by comparing it to a control population. The lesion is detected by fusing the outlier probabilities across multiple scales using a tree- structured HCRF. The proposed method achieves a higher detection rate, with superior recall and precision on a sample of twenty MRI-negative FCD patients as compared to a baseline across four morphological features and their combinations.",
+    "authors": [
+        "Bilal Ahmed",
+        "Thomas Thesen",
+        "Karen E. Blackmon",
+        "Ruben Kuzniekcy",
+        "Orrin Devinsky",
+        "Carla E. Brodley"
+    ],
+    "id": "15-428",
+    "issue": 112,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Decrypting ``Cryptogenic'' Epilepsy: Semi-supervised Hierarchical Conditional Random Fields For Detecting Cortical Lesions In MRI-Negative Patients",
+    "volume": 17,
+    "year": 2016
+}

@@ -1,0 +1,15 @@
+{
+    "abstract": "The problem of approachability in repeated games with vector payoffs was introduced by Blackwell in the 1950s, along with geometric conditions and corresponding approachability strategies that rely on computing a sequence of <em>direction vectors</em> in the payoff space. For convex target sets, these vectors are obtained as projections from the current average payoff vector to the set. A recent paper by Abernethy, Batlett and Hazan (2011) proposed a class of approachability algorithms that rely on Online Linear Programming for obtaining alternative sequences of direction vectors. This is first implemented for target sets that are convex cones, and then generalized to any convex set by embedding it in a higher-dimensional convex cone. In this paper we present a more direct formulation that relies on general Online Convex Optimization (OCO) algorithms, along with basic properties of the support function of convex sets. This leads to a general class of approachability algorithms, depending on the choice of the OCO algorithm and the used norms. Blackwell's original algorithm and its convergence are recovered when Follow The Leader (or a regularized version thereof) is used for the OCO algorithm.",
+    "authors": [
+        "Nahum Shimkin"
+    ],
+    "id": "15-339",
+    "issue": 129,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "An Online Convex Optimization Approach to Blackwell's Approachability",
+    "volume": 17,
+    "year": 2016
+}

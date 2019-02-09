@@ -1,0 +1,16 @@
+{
+    "abstract": "The class of linkage-based algorithms is perhaps the most popular class of hierarchical algorithms. We identify two properties of hierarchical algorithms, and prove that linkage- based algorithms are the only ones that satisfy both of these properties. Our characterization clearly delineates the difference between linkage-based algorithms and other hierarchical methods. We formulate an intuitive notion of locality of a hierarchical algorithm that distinguishes between linkage-based and <q>global</q> hierarchical algorithms like bisecting $k$-means, and prove that popular divisive hierarchical algorithms produce clusterings that cannot be produced by any linkage-based algorithm.",
+    "authors": [
+        "Margareta Ackerman",
+        "Shai Ben-David"
+    ],
+    "id": "11-198",
+    "issue": 232,
+    "pages": [
+        1,
+        17
+    ],
+    "title": "A Characterization of Linkage-Based Hierarchical Clustering",
+    "volume": 17,
+    "year": 2016
+}

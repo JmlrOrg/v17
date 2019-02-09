@@ -1,0 +1,18 @@
+{
+    "abstract": "Biclustering structures in data matrices were first formalized in a seminal paper by John Hartigan (Hartigan, 1972) where one seeks to cluster cases and variables simultaneously. Such structures are also prevalent in block modeling of networks. In this paper, we develop a theory for the estimation and completion of matrices with biclustering structures, where the data is a partially observed and noise contaminated matrix with a certain underlying biclustering structure. In particular, we show that a constrained least squares estimator achieves minimax rate-optimal performance in several of the most important scenarios. To this end, we derive unified high probability upper bounds for all sub-Gaussian data and also provide matching minimax lower bounds in both Gaussian and binary cases. Due to the close connection of graphon to stochastic block models, an immediate consequence of our general results is a minimax rate- optimal estimator for sparse graphons.",
+    "authors": [
+        "Chao Gao",
+        "Yu Lu",
+        "Zongming Ma",
+        "Harrison H. Zhou"
+    ],
+    "id": "15-617",
+    "issue": 161,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Optimal Estimation and Completion of Matrices with Biclustering Structures",
+    "volume": 17,
+    "year": 2016
+}

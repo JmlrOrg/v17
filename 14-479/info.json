@@ -1,0 +1,17 @@
+{
+    "abstract": "This paper considers inference of causal structure in a class of graphical models called conditional DAGs. These are directed acyclic graph (DAG) models with two kinds of variables, primary and secondary. The secondary variables are used to aid in the estimation of the structure of causal relationships between the primary variables. We prove that, under certain assumptions, such causal structure is identifiable from the joint observational distribution of the primary and secondary variables. We give causal semantics for the model class, put forward a score-based approach for estimation and establish consistency results. Empirical results demonstrate gains compared with formulations that treat all variables on an equal footing, or that ignore secondary variables. The methodology is motivated by applications in biology that involve multiple data types and is illustrated here using simulated data and in an analysis of molecular data from the Cancer Genome Atlas.",
+    "authors": [
+        "Chris. J. Oates",
+        "Jim Q. Smith",
+        "Sach Mukherjee"
+    ],
+    "id": "14-479",
+    "issue": 54,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "Estimating Causal Structure Using Conditional DAG Models",
+    "volume": 17,
+    "year": 2016
+}

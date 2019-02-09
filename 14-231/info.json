@@ -1,0 +1,18 @@
+{
+    "abstract": "Information criteria have been popularly used in model selection and proved to possess nice theoretical properties. For classification, Claeskens et al. (2880) proposed support vector machine information criterion for feature selection and provided encouraging numerical evidence. Yet no theoretical justification was given there. This work aims to fill the gap and to provide some theoretical justifications for support vector machine information criterion in both fixed and diverging model spaces. We first derive a uniform convergence rate for the support vector machine solution and then show that a modification of the support vector machine information criterion achieves model selection consistency even when the number of features diverges at an exponential rate of the sample size. This consistency result can be further applied to selecting the optimal tuning parameter for various penalized support vector machine methods. Finite-sample performance of the proposed information criterion is investigated using Monte Carlo studies and one real-world gene selection problem.",
+    "authors": [
+        "Xiang Zhang",
+        "Yichao Wu",
+        "Lan Wang",
+        "Runze Li"
+    ],
+    "id": "14-231",
+    "issue": 16,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "A Consistent Information Criterion for Support Vector Machines in Diverging Model Spaces",
+    "volume": 17,
+    "year": 2016
+}

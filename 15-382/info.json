@@ -1,0 +1,16 @@
+{
+    "abstract": "In this paper we introduce a novel framework for making exact nonparametric Bayesian inference on latent functions that is particularly suitable for <em>Big Data</em> tasks. Firstly, we introduce a class of stochastic processes we refer to as <em>string Gaussian processes</em> (<em>string GPs</em> which are not to be mistaken for Gaussian processes operating on text). We construct <em>string GPs</em> so that their finite- dimensional marginals exhibit suitable <em>local</em> conditional independence structures, which allow for <em>scalable</em>, <em>distributed</em>, and <em>flexible</em> nonparametric Bayesian inference, without resorting to approximations, and while ensuring some mild global regularity constraints. Furthermore, <em>string GP</em> priors naturally cope with heterogeneous input data, and the gradient of the learned latent function is readily available for explanatory analysis. Secondly, we provide some theoretical results relating our approach to the <em>standard GP paradigm</em>. In particular, we prove that some <em>string GPs</em> are Gaussian processes, which provides a complementary <em>global</em> perspective on our framework. Finally, we derive a scalable and distributed MCMC scheme for supervised learning tasks under <em>string GP</em> priors. The proposed MCMC scheme has computational time complexity $\\mathcal{O}(N)$ and memory requirement $\\mathcal{O}(dN)$, where $N$ is the data size and $d$ the dimension of the input space. We illustrate the efficacy of the proposed approach on several synthetic and real-world data sets, including a data set with $6$ millions input points and $8$ attributes.",
+    "authors": [
+        "Yves-Laurent Kom Samo",
+        "Stephen J. Roberts"
+    ],
+    "id": "15-382",
+    "issue": 131,
+    "pages": [
+        1,
+        87
+    ],
+    "title": "String and Membrane Gaussian Processes",
+    "volume": 17,
+    "year": 2016
+}

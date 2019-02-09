@@ -1,0 +1,16 @@
+{
+    "abstract": "Structured tasks are distinctive: each task has its own measure of performance, such as the word error rate in speech recognition, the BLEU score in machine translation, the NDCG score in information retrieval, or the intersection-over-union score in visual object segmentation. This paper presents StructED, a software package for learning structured prediction models with training methods that aimed at optimizing the task measure of performance. The package was written in Java and released under the MIT license. It can be downloaded from  <a href=\"http://adiyoss.github.io/StructED/\">adiyoss.github.io/StructED</a>.",
+    "authors": [
+        "Yossi Adi",
+        "Joseph Keshet"
+    ],
+    "id": "15-531",
+    "issue": 64,
+    "pages": [
+        1,
+        5
+    ],
+    "title": "StructED: Risk Minimization in Structured Prediction",
+    "volume": 17,
+    "year": 2016
+}

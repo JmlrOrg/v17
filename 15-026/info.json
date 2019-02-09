@@ -1,0 +1,16 @@
+{
+    "abstract": "We address the problem of selecting groups of jointly informative, continuous, features in the context of classification and propose several novel criteria for performing this selection. The proposed class of methods is based on combining a Gaussian modeling of the feature responses with derived bounds on and approximations to their mutual information with the class label. Furthermore, specific algorithmic implementations of these criteria are presented which reduce the computational complexity of the proposed feature selection algorithms by up to two-orders of magnitude. Consequently we show that feature selection based on the joint mutual information of features and class label is in fact tractable; this runs contrary to prior works that largely depend on marginal quantities. An empirical evaluation using several types of classifiers on multiple data sets show that this class of methods outperforms state-of-the-art baselines, both in terms of speed and classification accuracy.",
+    "authors": [
+        "Leonidas Lefakis",
+        "Fran\\c{c}ois Fleuret"
+    ],
+    "id": "15-026",
+    "issue": 182,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Jointly Informative Feature Selection Made Tractable by Gaussian Modeling",
+    "volume": 17,
+    "year": 2016
+}

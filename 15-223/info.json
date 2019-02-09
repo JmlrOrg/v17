@@ -1,0 +1,21 @@
+{
+    "abstract": "A major barrier towards scaling visual recognition systems is the difficulty of obtaining labeled images for large numbers of categories. Recently, deep convolutional neural networks (CNNs) trained used 1.2M+ labeled images have emerged as clear winners on object classification benchmarks. Unfortunately, only a small fraction of those labels are available with bounding box localization for training the detection task and even fewer pixel level annotations are available for semantic segmentation. It is much cheaper and easier to collect large quantities of image-level labels from search engines than it is to collect scene-centric images with precisely localized labels. We develop methods for learning large scale recognition models which exploit joint training over both weak (image-level) and strong (bounding box) labels and which transfer learned perceptual representations from strongly-labeled auxiliary tasks. We provide a novel formulation of a joint multiple instance learning method that includes examples from object-centric data with image-level labels when available, and also performs domain transfer learning to improve the underlying detector representation. We then show how to use our large scale detectors to produce pixel level annotations. Using our method, we produce a $&gt;$7.6K category detector and release code and models at <a href=\"http://lsda.berkeleyvision.org\">lsda.berkeley vision.org</a>.",
+    "authors": [
+        "Judy Hoffman",
+        "Deepak Pathak",
+        "Eric Tzeng",
+        "Jonathan Long",
+        "Sergio Guadarrama",
+        "Trevor Darrell",
+        "Kate Saenko"
+    ],
+    "id": "15-223",
+    "issue": 142,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Large Scale Visual Recognition through Adaptation using Joint Representation and Multiple Instance Learning",
+    "volume": 17,
+    "year": 2016
+}

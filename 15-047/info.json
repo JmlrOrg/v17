@@ -1,0 +1,17 @@
+{
+    "abstract": "In many fields one encounters the challenge of identifying out of a pool of possible designs those that simultaneously optimize multiple objectives. In many applications an exhaustive search for the Pareto-optimal set is infeasible. To address this challenge, we propose the <em>$\\epsilon$-Pareto Active Learning</em> ($\\epsilon$-PAL) algorithm which adaptively samples the design space to predict a set of Pareto-optimal solutions that cover the true Pareto front of the design space with some granularity regulated by a parameter $\\epsilon$. Key features of $\\epsilon$-PAL include (1) modeling the objectives as draws from a Gaussian process distribution to capture structure and accommodate noisy evaluation; (2) a method to carefully choose the next design to evaluate to maximize progress; and (3) the ability to control prediction accuracy and sampling cost. We provide theoretical bounds on $\\epsilon$-PAL's sampling cost required to achieve a desired accuracy. Further, we perform an experimental evaluation on three real-world data sets that demonstrate $\\epsilon$-PAL's effectiveness; in comparison to the state-of-the-art active learning algorithm PAL, $\\epsilon$-PAL reduces the amount of computations and the number of samples from the design space required to meet the user's desired level of accuracy. In addition, we show that $\\epsilon$-PAL improves significantly over a state-of-the-art multi- objective optimization method, saving in most cases 30\\% to 70\\% evaluations to achieve the same accuracy.",
+    "authors": [
+        "Marcela Zuluaga",
+        "Andreas Krause",
+        "Markus P{{{\\\"u}}}schel"
+    ],
+    "id": "15-047",
+    "issue": 104,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "e-PAL: An Active Learning Approach to the Multi-Objective Optimization Problem",
+    "volume": 17,
+    "year": 2016
+}

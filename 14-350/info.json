@@ -1,0 +1,18 @@
+{
+    "abstract": "Training a multilayer perceptron (MLP) with algorithms employing global search strategies has been an important research direction in the field of neural networks. Despite a number of significant results, an important matter concerning the bounds of the search region---typically defined as a box---where a global optimization method has to search for a potential global minimizer seems to be unresolved. The approach presented in this paper builds on interval analysis and attempts to define guaranteed bounds in the search space prior to applying a global search algorithm for training an MLP. These bounds depend on the machine precision and the term <quote>guaranteed</quote> denotes that the region defined surely encloses weight sets that are global minimizers of the neural network's error function. Although the solution set to the bounding problem for an MLP is in general non-convex, the paper presents the theoretical results that help deriving a box which is a convex set. This box is an outer approximation of the algebraic solutions to the interval equations resulting from the function implemented by the network nodes. An experimental study using well known benchmarks is presented in accordance with the theoretical results.",
+    "authors": [
+        "Stavros P. Adam",
+        "George D. Magoulas",
+        "Dimitrios A. Karras",
+        "Michael N. Vrahatis"
+    ],
+    "id": "14-350",
+    "issue": 169,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Bounding the Search Space for Global Optimization of Neural Networks Learning Error: An Interval Analysis Approach",
+    "volume": 17,
+    "year": 2016
+}

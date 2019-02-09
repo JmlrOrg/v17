@@ -1,0 +1,17 @@
+{
+    "abstract": "Accurate classification of categorical outcomes is essential in a wide range of applications. Due to computational issues with minimizing the empirical 0/1 loss, Fisher consistent losses have been proposed as viable proxies. However, even with smooth losses, direct minimization remains a daunting task. To approximate such a minimizer, various boosting algorithms have been suggested. For example, with exponential loss, the AdaBoost algorithm (Freund and Schapire, 1995) is widely used for two- class problems and has been extended to the multi-class setting (Zhu et al., 2009). Alternative loss functions, such as the logistic and the hinge losses, and their corresponding boosting algorithms have also been proposed (Zou et al., 2008; Wang, 2012).  In this paper we demonstrate that a broad class of losses, including non-convex functions, achieve Fisher consistency, and in addition can be used for explicit estimation of the conditional class probabilities. Furthermore, we provide a generic boosting algorithm that is not loss-specific. Extensive simulation results suggest that the proposed boosting algorithms could outperform existing methods with properly chosen losses and bags of weak learners.",
+    "authors": [
+        "Matey Neykov",
+        "Jun S. Liu",
+        "Tianxi Cai"
+    ],
+    "id": "14-306",
+    "issue": 70,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "On the Characterization of a Class of Fisher-Consistent Loss Functions and its Application to Boosting",
+    "volume": 17,
+    "year": 2016
+}

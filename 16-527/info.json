@@ -1,0 +1,17 @@
+{
+    "abstract": "ERRATA to the paper <a href=\"/papers/v17/ariascastro16a.html\">On the  Estimation of the Gradient Lines of a Density and the Consistency of  the Mean-Shift Algorithm</a>.",
+    "authors": [
+        "Ery Arias-Castro",
+        "David Mason",
+        "Bruno Pelletier"
+    ],
+    "id": "16-527",
+    "issue": 206,
+    "pages": [
+        1,
+        4
+    ],
+    "title": "ERRATA: On the Estimation of the Gradient Lines of a Density and the Consistency of the Mean-Shift Algorithm",
+    "volume": 17,
+    "year": 2016
+}
