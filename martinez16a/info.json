@@ -1,0 +1,18 @@
+{
+    "abstract": "Ever increasing data quantity makes ever more urgent the need for highly scalable learners that have good classification performance. Therefore, an out-of-core learner with excellent time and space complexity, along with high expressivity (that is, capacity to learn very complex multivariate probability distributions) is extremely desirable. This paper presents such a learner. We propose an extension to the $k$-dependence Bayesian classifier (KDB) that discriminatively selects a sub- model of a full KDB classifier. It requires only one additional pass through the training data, making it a three-pass learner. Our extensive experimental evaluation on $16$ large data sets reveals that this out-of-core algorithm achieves competitive classification performance, and substantially better training and classification time than state-of-the-art in-core learners such as random forest and linear and non-linear logistic regression.",
+    "authors": [
+        "Ana M. Mart{{\\'i}}nez",
+        "Geoffrey I. Webb",
+        "Shenglei Chen",
+        "Nayyar A. Zaidi"
+    ],
+    "id": "martinez16a",
+    "issue": 44,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Scalable Learning of Bayesian Network Classifiers",
+    "volume": 17,
+    "year": 2016
+}

@@ -12,5 +12,10 @@
     ],
     "title": "CVXPY: A Python-Embedded Modeling Language for Convex Optimization",
     "volume": 17,
-    "year": 2016
+    "year": 2016,
+    "extra_links": [
+        ["code", "https://github.com/cvxgrp/cvxpy"],
+        ["webpage", "https://www.cvxpy.org"]
+    ],
+    "special_issue": "MLOSS"
 }

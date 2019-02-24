@@ -1,0 +1,16 @@
+{
+    "abstract": "Numerous learning problems that contain exploration, such as experiment design, multi-arm bandits, online routing, search result aggregation and many more, have been studied extensively in isolation. In this paper we consider a generic and efficiently computable method for action space exploration based on convex geometry. We define a novel geometric notion of an exploration mechanism with low variance called volumetric spanners, and give efficient algorithms to construct such spanners. We describe applications of this mechanism to the problem of optimal experiment design and the general framework for decision making under uncertainty of bandit linear optimization. For the latter we give efficient and near-optimal regret algorithm over general convex sets. Previously such results were known only for specific convex sets, or under special conditions such as the existence of an efficient self- concordant barrier for the underlying set.",
+    "authors": [
+        "Elad Hazan",
+        "Zohar Karnin"
+    ],
+    "id": "hazan16a",
+    "issue": 119,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Volumetric Spanners: An Efficient Exploration Basis for Learning",
+    "volume": 17,
+    "year": 2016
+}

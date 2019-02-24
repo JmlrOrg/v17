@@ -1,0 +1,16 @@
+{
+    "abstract": "The problem of matching two sets of features appears in various tasks of computer vision and can be often formalized as a problem of permutation estimation. We address this problem from a statistical point of view and provide a theoretical analysis of the accuracy of several natural estimators. To this end, the minimax rate of separation is investigated and its expression is obtained as a function of the sample size, noise level and dimension of the features. We consider the cases of homoscedastic and heteroscedastic noise and establish, in each case, tight upper bounds on the separation distance of several estimators. These upper bounds are shown to be unimprovable both in the homoscedastic and heteroscedastic settings. Interestingly, these bounds demonstrate that a phase transition occurs when the dimension $d$ of the features is of the order of the logarithm of the number of features $n$. For $d=O(\\log n)$, the rate is dimension free and equals $\\sigma (\\log n)^{1/2}$, where $\\sigma$ is the noise level. In contrast, when $d$ is larger than $c\\log n$ for some constant $c&gt;0$, the minimax rate increases with $d$ and is of the order of $\\sigma(d\\log n)^{1/4}$. We also discuss the computational aspects of the estimators and provide empirical evidence of their consistency on synthetic data. Finally, we show that our results extend to more general matching criteria.",
+    "authors": [
+        "Olivier Collier",
+        "Arnak S. Dalalyan"
+    ],
+    "id": "collier16a",
+    "issue": 6,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Minimax Rates in Permutation Estimation for Feature Matching",
+    "volume": 17,
+    "year": 2016
+}

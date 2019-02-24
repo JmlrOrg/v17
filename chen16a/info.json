@@ -1,0 +1,21 @@
+{
+    "abstract": "The Gibbs sampler is one of the most popular algorithms for inference in statistical models. In this paper, we introduce a herding variant of this algorithm, called herded Gibbs, that is entirely deterministic. We prove that herded Gibbs has an $O(1/T)$ convergence rate for models with independent variables and for fully connected probabilistic graphical models. Herded Gibbs is shown to outperform Gibbs in the tasks of image denoising with MRFs and named entity recognition with CRFs. However, the convergence for herded Gibbs for sparsely connected probabilistic graphical models is still an open problem.",
+    "authors": [
+        "Yutian Chen",
+        "Luke Bornn",
+        "N",
+        "o de Freitas",
+        "Mareija Eskelin",
+        "Jing Fang",
+        "Max Welling"
+    ],
+    "id": "chen16a",
+    "issue": 10,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Herded Gibbs Sampling",
+    "volume": 17,
+    "year": 2016
+}

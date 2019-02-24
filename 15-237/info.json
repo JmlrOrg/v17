@@ -26,5 +26,10 @@
     ],
     "title": "MLlib: Machine Learning in Apache Spark",
     "volume": 17,
-    "year": 2016
+    "year": 2016,
+    "extra_links": [
+        ["code", "http://spark.apache.org/downloads.html"],
+        ["webpage", "http://spark.apache.org/mllib/"]
+    ],
+    "special_issue": "MLOSS"
 }

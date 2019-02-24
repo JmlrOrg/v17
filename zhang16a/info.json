@@ -1,0 +1,17 @@
+{
+    "abstract": "For spline regressions, it is well known that the choice of knots is crucial for the performance of the estimator. As a general learning framework covering the smoothing splines, learning in a Reproducing Kernel Hilbert Space (RKHS) has a similar issue. However, the selection of training data points for kernel functions in the RKHS representation has not been carefully studied in the literature. In this paper we study quantile regression as an example of learning in a RKHS. In this case, the regular squared norm penalty does not perform training data selection. We propose a data sparsity constraint that imposes thresholding on the kernel function coefficients to achieve a sparse kernel function representation. We demonstrate that the proposed data sparsity method can have competitive prediction performance for certain situations, and have comparable performance in other cases compared to that of the traditional squared norm penalty. Therefore, the data sparsity method can serve as a competitive alternative to the squared norm penalty method. Some theoretical properties of our proposed method using the data sparsity constraint are obtained. Both simulated and real data sets are used to demonstrate the usefulness of our data sparsity constraint.",
+    "authors": [
+        "Chong Zhang",
+        "Yufeng Liu",
+        "Yichao Wu"
+    ],
+    "id": "zhang16a",
+    "issue": 40,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "On Quantile Regression in Reproducing Kernel Hilbert Spaces with the Data Sparsity Constraint",
+    "volume": 17,
+    "year": 2016
+}

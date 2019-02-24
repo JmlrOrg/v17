@@ -12,5 +12,10 @@
     ],
     "title": "Stereo Matching by Training a Convolutional Neural Network to Compare Image Patches",
     "volume": 17,
-    "year": 2016
+    "year": 2016,
+    "extra_links": [
+        ["code", "https://github.com/jzbontar/mc-cnn"]
+    ],
+    "special_issue": "MLOSS"
+
 }

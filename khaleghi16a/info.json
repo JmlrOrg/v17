@@ -1,0 +1,18 @@
+{
+    "abstract": "The problem of clustering is considered for the case where every point is a time series. The time series are either given in one batch (offline setting), or they are allowed to grow with time and new time series can be added along the way (online setting). We propose a natural notion of consistency for this problem, and show that there are simple, computationally efficient algorithms that are asymptotically consistent under extremely weak assumptions on the distributions that generate the data. The notion of consistency is as follows. A clustering algorithm is called consistent if it places two time series into the same cluster if and only if the distribution that generates them is the same. In the considered framework the time series are allowed to be highly dependent, and the dependence can have arbitrary form. If the number of clusters is known, the only assumption we make is that the (marginal) distribution of each time series is stationary ergodic. No parametric, memory or mixing assumptions are made. When the number of clusters is unknown, stronger assumptions are provably necessary, but it is still possible to devise nonparametric algorithms that are consistent under very general conditions. The theoretical findings of this work are illustrated with experiments on both synthetic and real data.",
+    "authors": [
+        "Azadeh Khaleghi",
+        "Daniil Ryabko",
+        "J{{\\'e}}r{{\\'e}}mie Mary",
+        "Philippe Preux"
+    ],
+    "id": "khaleghi16a",
+    "issue": 3,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Consistent Algorithms for Clustering Time Series",
+    "volume": 17,
+    "year": 2016
+}

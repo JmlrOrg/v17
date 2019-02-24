@@ -16,5 +16,9 @@
     ],
     "title": "LIBMF: A Library for Parallel Matrix Factorization in Shared-memory Systems",
     "volume": 17,
-    "year": 2016
+    "year": 2016,
+    "extra_links": [
+        ["code", "https://www.csie.ntu.edu.tw/~cjlin/libmf/"]
+      ],
+    "special_issue": "MLOSS"
 }

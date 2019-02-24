@@ -13,5 +13,8 @@
     ],
     "title": "Structure Learning in Bayesian Networks of a Moderate Size by Efficient Sampling",
     "volume": 17,
-    "year": 2016
+    "year": 2016,
+    "extra_links": [
+        ["appendix", "http://www.jmlr.org/papers/volume17/14-497/14-497-appendix1.pdf"]
+    ]
 }

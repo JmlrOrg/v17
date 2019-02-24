@@ -2,12 +2,11 @@
     "abstract": "Conditional random fields maximize the log-likelihood of training labels given the training data, e.g., objects given images. In many cases the training labels are structures that consist of a set of variables and the computational complexity for estimating their likelihood is exponential in the number of the variables. Learning algorithms relax this computational burden using approximate inference that is nested as a sub- procedure. In this paper we describe the objective function for nested learning and inference in conditional random fields. The devised objective maximizes the log-beliefs --- probability distributions over subsets of training variables that agree on their marginal probabilities. This objective is concave and consists of two types of variables that are related to the learning and inference tasks respectively. Importantly, we afterwards show how to blend the learning and inference procedure and effectively get to the identical optimum much faster. The proposed algorithm currently achieves the state-of- the-art in various computer vision applications.",
     "authors": [
         "Tamir Hazan",
-        "Alex",
-        "er G. Schwing",
+        "Alexander G. Schwing",
         "Raquel Urtasun"
     ],
     "id": "13-260",
-    "issue": 237,
+    "issue": 234,
     "pages": [
         1,
         25

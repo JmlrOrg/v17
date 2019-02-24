@@ -11,5 +11,10 @@
     ],
     "title": "fastFM: A Library for Factorization Machines",
     "volume": 17,
-    "year": 2016
+    "year": 2016,
+    "extra_links" : [
+        ["code", "https://github.com/ibayer/fastFM"],
+        ["webpage", "http://ibayer.github.io/fastFM/"]
+    ],
+    "special_issue": "MLOSS"
 }

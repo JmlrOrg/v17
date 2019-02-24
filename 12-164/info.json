@@ -14,5 +14,10 @@
     ],
     "title": "MEKA: A Multi-label/Multi-target Extension to WEKA",
     "volume": 17,
-    "year": 2016
+    "year": 2016,
+    "extra_links": [
+        ["code", "https://github.com/Waikato/meka"],
+        ["webpage", "http://waikato.github.io/meka/"]
+    ],
+    "special_issue": "MLOSS"
 }

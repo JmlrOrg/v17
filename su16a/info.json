@@ -1,0 +1,16 @@
+{
+    "abstract": "Algorithms for inferring the structure of Bayesian networks from data have become an increasingly popular method for uncovering the direct and indirect influences among variables in complex systems. A Bayesian approach to structure learning uses posterior probabilities to quantify the strength with which the data and prior knowledge jointly support each possible graph feature. Existing Markov Chain Monte Carlo (MCMC) algorithms for estimating these posterior probabilities are slow in mixing and convergence, especially for large networks. We present a novel Markov blanket resampling (MBR) scheme that intermittently reconstructs the Markov blanket of nodes, thus allowing the sampler to more effectively traverse low-probability regions between local maxima. As we can derive the complementary forward and backward directions of the MBR proposal distribution, the Metropolis-Hastings algorithm can be used to account for any asymmetries in these proposals. Experiments across a range of network sizes show that the MBR scheme outperforms other state- of-the-art algorithms, both in terms of learning performance and convergence rate. In particular, MBR achieves better learning performance than the other algorithms when the number of observations is relatively small and faster convergence when the number of variables in the network is large.",
+    "authors": [
+        "Chengwei Su",
+        "Mark E. Borsuk"
+    ],
+    "id": "su16a",
+    "issue": 118,
+    "pages": [
+        1,
+        20
+    ],
+    "title": "Improving Structure MCMC for Bayesian Networks through Markov Blanket Resampling",
+    "volume": 17,
+    "year": 2016
+}

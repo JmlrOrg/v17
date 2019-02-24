@@ -1,0 +1,17 @@
+{
+    "abstract": "We consider the problem of estimating the gradient lines of a density, which can be used to cluster points sampled from that density, for example via the mean-shift algorithm of Fukunaga and Hostetler (1975). We prove general convergence bounds that we then specialize to kernel density estimation.",
+    "authors": [
+        "Ery Arias-Castro",
+        "David Mason",
+        "Bruno Pelletier"
+    ],
+    "id": "ariascastro16a",
+    "issue": 43,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "On the Estimation of the Gradient Lines of a Density and the Consistency of the Mean-Shift Algorithm",
+    "volume": 17,
+    "year": 2016
+}

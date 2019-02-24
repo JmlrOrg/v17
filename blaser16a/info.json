@@ -1,0 +1,16 @@
+{
+    "abstract": "In machine learning, ensemble methods combine the predictions of multiple base learners to construct more accurate aggregate predictions. Established supervised learning algorithms inject randomness into the construction of the individual base learners in an effort to promote diversity within the resulting ensembles. An undesirable side effect of this approach is that it generally also reduces the accuracy of the base learners. In this paper, we introduce a method that is simple to implement yet general and effective in improving ensemble diversity with only modest impact on the accuracy of the individual base learners. By randomly rotating the feature space prior to inducing the base learners, we achieve favorable aggregate predictions on standard data sets compared to state of the art ensemble methods, most notably for tree-based ensembles, which are particularly sensitive to rotation.",
+    "authors": [
+        "Rico Blaser",
+        "Piotr Fryzlewicz"
+    ],
+    "id": "blaser16a",
+    "issue": 4,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Random Rotation Ensembles",
+    "volume": 17,
+    "year": 2016
+}

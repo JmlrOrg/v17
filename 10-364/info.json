@@ -1,10 +1,9 @@
 {
     "abstract": "We introduce a variant of the classification-based approach to policy iteration which uses a cost-sensitive loss function weighting each classification mistake by its actual <i>regret</i>, that is, the difference between the action- value of the greedy action and of the action chosen by the classifier. For this algorithm, we provide a full finite-sample analysis. Our results state a performance bound in terms of the number of policy improvement steps, the number of rollouts used in each iteration, the capacity of the considered policy space (classifier), and a capacity measure which indicates how well the policy space can approximate policies that are greedy with respect to any of its members. The analysis reveals a tradeoff between the estimation and approximation errors in this classification-based policy iteration setting. Furthermore it confirms the intuition that classification-based policy iteration algorithms could be favorably compared to value-based approaches when the policies can be approximated more easily than their corresponding value functions. We also study the consistency of the algorithm when there exists a sequence of policy spaces with increasing capacity.",
     "authors": [
-        "Aless",
-        "ro Lazaric",
+        "Alessandro Lazaric",
         "Mohammad Ghavamzadeh",
-        "R{{\\'e}}mi Munos"
+        "R{\\'e}mi Munos"
     ],
     "id": "10-364",
     "issue": 19,
