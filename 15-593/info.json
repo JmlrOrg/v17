@@ -1,12 +1,9 @@
 {
     "abstract": "bandicoot is an open-source Python toolbox to extract more than 1442 features from standard mobile phone metadata. bandicoot makes it easy for machine learning researchers and practitioners to load mobile phone data, to analyze and visualize them, and to extract robust features which can be used for various classification and clustering tasks. Emphasis is put on ease of use, consistency, and documentation. bandicoot has no dependencies and is distributed under MIT license.",
     "authors": [
-        "Yves-Alex",
-        "re de Montjoye",
+        "Yves-Alexandre de Montjoye",
         "Luc Rocher",
-        "Alex S",
-        "y Pentl",
-        ""
+        "Alex Sandy Pentland"
     ],
     "id": "15-593",
     "issue": 175,

@@ -2,9 +2,8 @@
     "abstract": "The Layer-wise Relevance Propagation (LRP) algorithm explains a classifier's prediction specific to a given data point by attributing <em>relevance scores</em> to important components of the input by using the topology of the learned model itself. With the LRP Toolbox we provide platform-agnostic implementations for explaining the predictions of pre-trained state of the art Caffe networks and stand-alone implementations for fully connected Neural Network models. The implementations for Matlab and python shall serve as a playing field to familiarize oneself with the LRP algorithm and are implemented with readability and transparency in mind. Models and data can be imported and exported using raw text formats, Matlab's <code>.mat</code> files and the <code>.npy</code> format for numpy or plain text.",
     "authors": [
         "Sebastian Lapuschkin",
-        "Alex",
-        "er Binder",
-        "Gr{{\\'e}}goire Montavon",
+        "Alexander Binder",
+        "Gr{\\'e}goire Montavon",
         "Klaus-Robert M{{{\\\"u}}}ller",
         "Wojciech Samek"
     ],

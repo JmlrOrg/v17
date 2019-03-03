@@ -1,7 +1,7 @@
 {
     "abstract": "High dimensional Poisson regression has become a standard framework for the analysis of massive counts datasets. In this work we estimate the intensity function of the Poisson regression model by using a dictionary approach, which generalizes the classical basis approach, combined with a Lasso or a group-Lasso procedure. Selection depends on penalty weights that need to be calibrated. Standard methodologies developed in the Gaussian framework can not be directly applied to Poisson models due to heteroscedasticity. Here we provide data-driven weights for the Lasso and the group-Lasso derived from concentration inequalities adapted to the Poisson case. We show that the associated Lasso and group-Lasso procedures satisfy fast and slow oracle inequalities. Simulations are used to assess the empirical performance of our procedure, and an original application to the analysis of Next Generation Sequencing data is provided.",
     "authors": [
-        "St{{\\'e}}phane Ivanoff",
+        "St{\\'e}phane Ivanoff",
         "Franck Picard",
         "Vincent Rivoirard"
     ],
