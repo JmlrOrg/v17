@@ -6,9 +6,8 @@
         "Hana Ajakan",
         "Pascal Germain",
         "Hugo Larochelle",
-        "Fran\\c{c}ois Laviolette",
+        "Fran{\\c{c}}ois Laviolette",
         "Mario March",
-        "",
         "Victor Lempitsky"
     ],
     "id": "15-239",
