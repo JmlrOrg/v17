@@ -1,7 +1,7 @@
 {
     "abstract": "Learning probabilistic models over strings is an important issue for many applications. Spectral methods propose elegant solutions to the problem of inferring weighted automata from finite samples of variable-length strings drawn from an unknown target distribution $p$. These methods rely on a singular value decomposition of a matrix $\\v{H}_S$, called the empirical Hankel matrix, that records the frequencies of (some of) the observed strings $S$. The accuracy of the learned distribution depends both on the quantity of information embedded in $\\v{H}_S$ and on the distance between $\\v{H}_S$ and its mean $\\v{H}_p$. Existing concentration bounds seem to indicate that the concentration over $\\v{H}_p$ gets looser with its dimensions, suggesting that it might be necessary to bound the dimensions of $\\v{H}_S$ for learning. We prove new <i>dimension-free</i> concentration bounds for classical Hankel matrices and several variants, based on prefixes or factors of strings, that are useful for learning. Experiments demonstrate that these bounds are tight and that they significantly improve existing (dimension-dependent) bounds. One consequence of these results is that the spectral learning approach remains consistent even if all the observations are recorded within the empirical matrix.",
     "authors": [
-        "Fran\\c{c}ois Denis",
+        "Fran{\\c{c}}ois Denis",
         "Mattias Gybels",
         "Amaury Habrard"
     ],

@@ -2,7 +2,7 @@
     "abstract": "The proliferation of online communities has attracted much attention to modelling user behaviour in terms of social interaction, language adoption and contribution activity. Nevertheless, when applied to large-scale and cross-platform behavioural data, existing approaches generally suffer from expressiveness, scalability and generality issues. This paper proposes trans-dimensional von Mises-Fisher (TvMF) mixture models for $\\mathcal{L}_{2}$ normalised behavioural data, which encapsulate: (1) a Bayesian framework for vMF mixtures that enables prior knowledge and information sharing among clusters, (2) an extended version of reversible jump MCMC algorithm that allows adaptive changes in the number of clusters for vMF mixtures when the model parameters are updated, and (3) an online TvMF mixture model that accommodates the dynamics of clusters for time-varying user behavioural data. We develop efficient collapsed Gibbs sampling techniques for posterior inference, which facilitates parallelism for parameter updates. Empirical results on simulated and real-world data show that the proposed TvMF mixture models can discover more interpretable and intuitive clusters than other widely-used models, such as k-means, non-negative matrix factorization (NMF), Dirichlet process Gaussian mixture models (DP-GMM), and dynamic topic models (DTM). We further evaluate the performance of proposed models in real-world applications, such as the churn prediction task, that shows the usefulness of the features generated.",
     "authors": [
         "Xiangju Qin",
-        "P{\\'{a}}draig Cunningham",
+        "P{{\\'a}}draig Cunningham",
         "Michael Salter-Townshend"
     ],
     "id": "15-454",

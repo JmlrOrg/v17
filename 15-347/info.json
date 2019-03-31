@@ -2,10 +2,10 @@
     "abstract": "Active Learning has become an important area of research owing to the increasing number of real-world problems which contain labelled and unlabelled examples at the same time. JCLAL is a Java Class Library for Active Learning which has an architecture that follows strong principles of object-oriented design. It is easy to use, and it allows the developers to adapt, modify and extend the framework according to their needs. The library offers a variety of active learning methods that have been proposed in the literature. The software is available under the GPL license.",
     "authors": [
         "Oscar Reyes",
-        "Eduardo P{\\'e}rez",
-        "Mar{\\'i}a del Carmen Rodr{\\'i}guez-Hern{\\'a}ndez",
+        "Eduardo P{{\\'e}}rez",
+        "Mar{{\\'i}}a del Carmen Rodr{{\\'i}}guez-Hern{{\\'a}}ndez",
         "Habib M. Fardoun",
-        "Sebasti{\\'a}n  Ventura"
+        "Sebasti{{\\'a}}n  Ventura"
     ],
     "id": "15-347",
     "issue": 95,
