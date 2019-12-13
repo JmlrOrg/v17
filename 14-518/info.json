@@ -17,7 +17,7 @@
     "volume": 17,
     "year": 2016,
     "extra_links": [
-        ["appendix 1", "http://jmlr.org/papers/volume17/14-518/14-518-appendix1.zip"],
-        ["appendix 2", "http://jmlr.org/papers/volume17/14-518/14-518-appendix2.zip"]
+        ["appendix 1", "http://jmlr.org/papers/volume17/14-518/14-518-supplement1.zip"],
+        ["appendix 2", "http://jmlr.org/papers/volume17/14-518/14-518-supplement2.zip"]
     ]
 }
