@@ -12,5 +12,8 @@
     ],
     "title": "GenSVM: A Generalized Multiclass Support Vector Machine",
     "volume": 17,
-    "year": 2016
+    "year": 2016,
+    "extra_links": [
+        ["code", "https://github.com/GjjvdBurg/GenSVM"]
+    ]
 }
