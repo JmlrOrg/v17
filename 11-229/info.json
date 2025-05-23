@@ -1,7 +1,7 @@
 {
     "abstract": " <p>A unified view on multi-class support vector machines (SVMs) is presented, covering most prominent variants including the one- vs-all approach and the algorithms proposed by Weston &amp; Watkins, Crammer &amp; Singer, Lee, Lin, &amp; Wahba, and Liu &amp; Yuan. The unification leads to a template for the quadratic training problems and new multi-class SVM formulations. Within our framework, we provide a comparative analysis of the various notions of multi-class margin and margin-based loss. In particular, we demonstrate limitations of the loss function considered, for instance, in the Crammer &amp; Singer machine.</p> <p>We analyze Fisher consistency of multi- class loss functions and universal consistency of the various machines. On the one hand, we give examples of SVMs that are, in a particular hyperparameter regime, universally consistent without being based on a Fisher consistent loss. These include the canonical extension of SVMs to multiple classes as proposed by Weston &amp; Watkins and Vapnik as well as the one-vs-all approach. On the other hand, it is demonstrated that machines based on Fisher consistent loss functions can fail to identify proper decision boundaries in low-dimensional feature spaces.</p> <p>We compared the performance of nine different multi-class SVMs in a thorough empirical study. Our results suggest to use the Weston &amp; Watkins SVM, which can be trained comparatively fast and gives good accuracies on benchmark functions. If training time is a major concern, the one-vs-all approach is the method of choice.</p>",
     "authors": [
-        "{\\\"U}r{{\\\"u}}n Do\\u{g}an",
+        "Ürün Doğan",
         "Tobias Glasmachers",
         "Christian Igel"
     ],
