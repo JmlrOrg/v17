@@ -1,10 +1,9 @@
 {
     "abstract": "We study two regularization-based approximate policy iteration algorithms, namely REG-LSPI and REG-BRM, to solve reinforcement learning and planning problems in discounted Markov Decision Processes with large state and finite action spaces. The core of these algorithms are the regularized extensions of the Least- Squares Temporal Difference (LSTD) learning and Bellman Residual Minimization (BRM), which are used in the algorithms' policy evaluation steps. Regularization provides a convenient way to control the complexity of the function space to which the estimated value function belongs and as a result enables us to work with rich nonparametric function spaces. We derive efficient implementations of our methods when the function space is a reproducing kernel Hilbert space. We analyze the statistical properties of REG-LSPI and provide an upper bound on the policy evaluation error and the performance loss of the policy returned by this method. Our bound shows the dependence of the loss on the number of samples, the capacity of the function space, and some intrinsic properties of the underlying Markov Decision Process. The dependence of the policy evaluation bound on the number of samples is minimax optimal. This is the first work that provides such a strong guarantee for a nonparametric approximate policy iteration algorithm. (This work is an extension of the NIPS 2008 conference paper by Farahmand et al. (2009b).)",
     "authors": [
-        "Amir-massoud Farahm",
-        "",
+        "Amir-massoud Farahmand",
         "Mohammad Ghavamzadeh",
-        "Csaba Szepesv{{\\'a}}ri",
+        "Csaba Szepesvári",
         "Shie Mannor"
     ],
     "id": "13-016",

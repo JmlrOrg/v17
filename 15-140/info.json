@@ -1,7 +1,7 @@
 {
     "abstract": "We present methods based on Metropolis-coupled Markov chain Monte Carlo (MC3) and annealed importance sampling (AIS) for estimating the posterior distribution of Bayesian networks. The methods draw samples from an appropriate distribution of partial orders on the nodes, continued by sampling directed acyclic graphs (DAGs) conditionally on the sampled partial orders. We show that the computations needed for the sampling algorithms are feasible as long as the encountered partial orders have relatively few down-sets. While the algorithms assume suitable modularity properties of the priors, arbitrary priors can be handled by dividing the importance weight of each sampled DAG by the number of topological sorts it has---we give a practical dynamic programming algorithm to compute these numbers. Our empirical results demonstrate that the presented partial-order- based samplers are superior to previous Markov chain Monte Carlo methods, which sample DAGs either directly or via linear orders on the nodes. The results also suggest that the convergence rate of the estimators based on AIS are competitive to those of MC3. Thus AIS is the preferred method, as it enables easier large- scale parallelization and, in addition, supplies good probabilistic lower bound guarantees for the marginal likelihood of the model.",
     "authors": [
-        "Teppo Niinim\\\"{a}ki",
+        "Teppo Niinimäki",
         "Pekka Parviainen",
         "Mikko Koivisto"
     ],
